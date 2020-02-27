@@ -1,8 +1,8 @@
-Total Ram: 3947741184 Bytes
- Free Ram: 900485120 Bytes
- Used Ram: 3424256 Bytes
+Total Ram: 25722044416 Bytes
+ Free Ram: 11867623424 Bytes
+ Used Ram: 3624960 Bytes
 
-debug:nativeWidth, nativeHeight, bpp, Hz  1600, 900, 24, 60
+debug:nativeWidth, nativeHeight, bpp, Hz  1920, 1080, 24, 60
 OpenBoR v3.0 Build , Compile Date: Aug 29 2018
 
 Game Selected: ./Paks/My Mod.pak
@@ -26,6 +26,7 @@ Loading script settings......	Done!
 Loading scripts..............	Done!
 Loading models...............
 
+Joystick: "UNKNOWN" connected at port: 0 at 2020-02-25 15:29:24
 Cacheing 'Flash' from data/chars/misc/flash.txt
 Cacheing 'Kula' from data/chars/kula/kula.txt
 Cacheing 'Max' from data/chars/maxima/maxima.txt
@@ -70,16 +71,20 @@ Cacheing 'Steamer' from data/chars/misc/steamer.txt
 Cacheing 'Furnace' from data/chars/misc/furnace.txt
 Cacheing 'Crab' from data/chars/crab/crab.txt
 Cacheing 'Lobster' from data/chars/Lobster/Lobster.txt
+Cacheing 'haggar' from Data/Chars/haggar/haggar.txt
 
 Loaded 'Flash' from data/chars/misc/flash.txt 
 Loaded 'Kula' from data/chars/kula/kula.txt 
 Loaded 'Max' from data/chars/maxima/maxima.txt 
 Loaded 'Mandy' from data/chars/mary/mary.txt 
 Loaded 'Mighty' from data/chars/mighty/mighty.txt 
+Loaded 'haggar' from Data/Chars/haggar/haggar.txt 
 
 Loading models...............	Done!
 Object engine init...........	Done!
-Input init...................	No Joystick(s) Found!
+Input init...................	
+1 joystick(s) found!
+UNKNOWN - 4 axes, 12 buttons, 1 hat(s)
 Done!
 Create blending tables.......	Done!
 Save settings so far........	Done!
@@ -88,9 +93,9 @@ Save settings so far........	Done!
 
 Can't play music file 'data/music/title.bor'
 Level Loading:   'data/levels/example1.txt'
-Total Ram: 3947741184 Bytes
- Free Ram: 880353280 Bytes
- Used Ram: 32886784 Bytes
+Total Ram: 25722044416 Bytes
+ Free Ram: 11862544384 Bytes
+ Used Ram: 50667520 Bytes
 
 Loaded '1up' from data/chars/misc/1up.txt 
 Loaded 'Shermie' from data/chars/shermie/shermie.txt 
@@ -106,25 +111,11 @@ Loaded 'K'' from data/chars/k/k.txt
 Loaded 'Lobster' from data/chars/Lobster/Lobster.txt 
 
 Level Loaded:    'data/levels/example1.txt'
-Total Ram: 3947741184 Bytes
- Free Ram: 877998080 Bytes
- Used Ram: 34230272 Bytes
-Total sprites mapped: 639
+Total Ram: 25722044416 Bytes
+ Free Ram: 11859415040 Bytes
+ Used Ram: 52314112 Bytes
+Total sprites mapped: 663
 
-Level Unloading: 'data/levels/example1.txt'
-Total Ram: 3947741184 Bytes
- Free Ram: 880918528 Bytes
- Used Ram: 41934848 Bytes
-
-RAM Status:
-Total Ram: 3947741184 Bytes
- Free Ram: 880918528 Bytes
- Used Ram: 41934848 Bytes
-
-
-Can't play music file 'data/music/hiscore.bor'
-
-Can't play music file 'data/music/title.bor'
 
 ************ Shutting Down ************
 
@@ -135,11 +126,21 @@ OpenBOR is the open source continuation of Beats of Rage by Senile Team.
 
 Special thanks to SEGA and SNK.
 
-Total Ram: 3947741184 Bytes
- Free Ram: 874668032 Bytes
- Used Ram: 42991616 Bytes
+Total Ram: 25722044416 Bytes
+ Free Ram: 11848675328 Bytes
+ Used Ram: 52719616 Bytes
 
 Release level data...........
+Level Unloading: 'data/levels/example1.txt'
+Total Ram: 25722044416 Bytes
+ Free Ram: 11846569984 Bytes
+ Used Ram: 52719616 Bytes
+
+RAM Status:
+Total Ram: 25722044416 Bytes
+ Free Ram: 11846569984 Bytes
+ Used Ram: 52719616 Bytes
+
 Done!
 
 Release graphics data........	Done!
@@ -150,6 +151,7 @@ Unload 'Kula' ............Done.
 Unload 'Max' ............Done.
 Unload 'Mandy' ............Done.
 Unload 'Mighty' ............Done.
+Unload 'haggar' ............Done.
 Unload '1up' ............Done.
 Unload 'Shermie' ............Done.
 Unload 'Steamer' ............Done.

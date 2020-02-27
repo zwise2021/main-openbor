@@ -1,0 +1,97 @@
+name haggar
+type player
+health  100
+gfxshadow	1
+speed   10
+
+
+
+
+
+
+
+
+
+anim	attack1
+	delay	7
+	offset	39 83
+	bbox	6 2 50 83
+	frame	data/chars/haggar/attack1-01.png
+	bbox	0 0 0 0
+	offset	55 83
+	frame	data/chars/haggar/attack1-02.png
+	attack	62 13 61 27 5 0 0 0 0 0
+	bbox	16 2 55 83
+	offset	54 83
+	frame	data/chars/haggar/attack1-03.png
+	bbox	0 0 0 0
+	offset	54 83
+	frame	data/chars/haggar/attack1-04.png
+	bbox	1 2 55 83
+	offset	38 83
+	frame	data/chars/haggar/attack1-05.png
+		
+anim	fall
+	delay	7
+	offset	33 92
+	bbox	0 0 0 0
+	frame	data/chars/haggar/fall-01.png
+	offset	63 97
+	frame	data/chars/haggar/fall-02.png
+	offset	63 24
+	frame	data/chars/haggar/fall-03.png
+		
+anim	idle
+	loop	1
+	delay	7
+	offset	36 86
+	bbox	12 0 46 90
+	frame	data/chars/haggar/idle-01.png
+		
+anim	pain
+	delay	18
+	offset	52 98
+	bbox	0 0 0 0
+	frame	data/chars/haggar/pain-01.png
+		
+anim	rise
+	delay	7
+	offset	41 45
+	bbox	0 0 0 0
+	frame	data/chars/haggar/rise-01.png
+	offset	41 65
+	frame	data/chars/haggar/rise-02.png
+		
+anim	walk
+	loop	1
+	delay	7
+	offset	36 94
+	bbox	15 0 40 99
+	frame	data/chars/haggar/walk-01.png
+	frame	data/chars/haggar/walk-02.png
+	frame	data/chars/haggar/walk-03.png
+	offset	37 93
+	frame	data/chars/haggar/walk-04.png
+	offset	40 93
+	movea	0
+	frame	data/chars/haggar/walk-05.png
+	offset	36 94
+	movea	0
+	frame	data/chars/haggar/walk-06.png
+	movea	0
+	frame	data/chars/haggar/walk-07.png
+	offset	36 94
+	movea	0
+	frame	data/chars/haggar/walk-08.png
+	offset	37 93
+	movea	0
+	frame	data/chars/haggar/walk-09.png
+	offset	37 92
+	frame	data/chars/haggar/walk-10.png
+	offset	36 92
+	frame	data/chars/haggar/walk-11.png
+	offset	36 94
+	frame	data/chars/haggar/walk-12.png
+		
+#|edited by openBor Stats v 0.67
+		
