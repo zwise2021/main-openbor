@@ -62,3 +62,7 @@ know	Steamer		data/chars/misc/steamer.txt
 know	Furnace		data/chars/misc/furnace.txt
 know	Crab		data/chars/crab/crab.txt
 know	Lobster		data/chars/Lobster/Lobster.txt
+Load Haggar Data/Chars/Haggar/Haggar.txt
+Load Haggar Data/Chars/Haggar/Haggar.txt
+Load Haggar Data/Chars/Haggar/Haggar.txt
+Load Haggar Data/CHARS/Haggar/Haggar.txt
