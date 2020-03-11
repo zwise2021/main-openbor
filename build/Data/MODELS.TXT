@@ -13,6 +13,7 @@ load	Kula		data/chars/kula/kula.txt
 load	Max		data/chars/maxima/maxima.txt
 load	Mandy		data/chars/mary/mary.txt
 load	Mighty		data/chars/mighty/mighty.txt
+load    Kyoko		data/chars/kyoko/kyoko.txt
 
 # Items and other objects can be loaded when needed.
 know	Apple		data/chars/misc/apple.txt
@@ -62,3 +63,4 @@ know	Steamer		data/chars/misc/steamer.txt
 know	Furnace		data/chars/misc/furnace.txt
 know	Crab		data/chars/crab/crab.txt
 know	Lobster		data/chars/Lobster/Lobster.txt
+Load Kyoko Data/Chars/Kyoko/Kyoko.txt

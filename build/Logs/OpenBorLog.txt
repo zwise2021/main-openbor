@@ -1,6 +1,6 @@
-Total Ram: 4110712832 Bytes
- Free Ram: 869183488 Bytes
- Used Ram: 6193152 Bytes
+Total Ram: 3516645376 Bytes
+ Free Ram: 540872704 Bytes
+ Used Ram: 6201344 Bytes
 
 debug:nativeWidth, nativeHeight, bpp, Hz  1366, 768, 24, 60
 OpenBoR v3.0 Build , Compile Date: Aug 29 2018
@@ -31,6 +31,7 @@ Cacheing 'Kula' from data/chars/kula/kula.txt
 Cacheing 'Max' from data/chars/maxima/maxima.txt
 Cacheing 'Mandy' from data/chars/mary/mary.txt
 Cacheing 'Mighty' from data/chars/mighty/mighty.txt
+Cacheing 'Kyoko' from data/chars/kyoko/kyoko.txt
 Cacheing 'Apple' from data/chars/misc/apple.txt
 Cacheing 'Meat' from data/chars/misc/meat.txt
 Cacheing '1up' from data/chars/misc/1up.txt
@@ -70,13 +71,15 @@ Cacheing 'Steamer' from data/chars/misc/steamer.txt
 Cacheing 'Furnace' from data/chars/misc/furnace.txt
 Cacheing 'Crab' from data/chars/crab/crab.txt
 Cacheing 'Lobster' from data/chars/Lobster/Lobster.txt
+Cacheing 'Kyoko' from Data/Chars/Kyoko/Kyoko.txt
 
 Loaded 'Flash' from data/chars/misc/flash.txt 
 Loaded 'Kula' from data/chars/kula/kula.txt 
 Loaded 'Max' from data/chars/maxima/maxima.txt 
 Loaded 'Mandy' from data/chars/mary/mary.txt 
 Loaded 'Mighty' from data/chars/mighty/mighty.txt 
-
+Loaded 'Kyoko' from data/chars/kyoko/kyoko.txt 
+Loaded 'Kyoko'
 Loading models...............	Done!
 Object engine init...........	Done!
 Input init...................	No Joystick(s) Found!
@@ -87,30 +90,6 @@ Save settings so far........	Done!
 
 
 Can't play music file 'data/music/title.bor'
-Level Loading:   'data/levels/example1.txt'
-Total Ram: 4110712832 Bytes
- Free Ram: 853913600 Bytes
- Used Ram: 47079424 Bytes
-
-Loaded '1up' from data/chars/misc/1up.txt 
-Loaded 'Shermie' from data/chars/shermie/shermie.txt 
-Loaded 'Steamer' from data/chars/misc/steamer.txt 
-Loaded 'Steam' from data/chars/misc/steam.txt 
-Loaded 'Yashiro' from data/chars/yashiro/yashiro.txt 
-Loaded 'Trash' from data/chars/misc/trash.txt 
-Loaded 'money' from data/chars/misc/money.txt 
-Loaded 'gold' from data/chars/misc/gold.txt 
-Loaded 'ralf' from data/chars/ralf/ralf.txt 
-Loaded 'biker-k'' from data/chars/biker-k/biker-k.txt 
-Loaded 'K'' from data/chars/k/k.txt 
-Loaded 'Lobster' from data/chars/Lobster/Lobster.txt 
-
-Level Loaded:    'data/levels/example1.txt'
-Total Ram: 4110712832 Bytes
- Free Ram: 852574208 Bytes
- Used Ram: 48656384 Bytes
-Total sprites mapped: 639
-
 
 ************ Shutting Down ************
 
@@ -121,21 +100,11 @@ OpenBOR is the open source continuation of Beats of Rage by Senile Team.
 
 Special thanks to SEGA and SNK.
 
-Total Ram: 4110712832 Bytes
- Free Ram: 826667008 Bytes
- Used Ram: 48738304 Bytes
+Total Ram: 3516645376 Bytes
+ Free Ram: 391503872 Bytes
+ Used Ram: 70905856 Bytes
 
 Release level data...........
-Level Unloading: 'data/levels/example1.txt'
-Total Ram: 4110712832 Bytes
- Free Ram: 826662912 Bytes
- Used Ram: 48738304 Bytes
-
-RAM Status:
-Total Ram: 4110712832 Bytes
- Free Ram: 826662912 Bytes
- Used Ram: 48738304 Bytes
-
 Done!
 
 Release graphics data........	Done!
@@ -146,18 +115,7 @@ Unload 'Kula' ............Done.
 Unload 'Max' ............Done.
 Unload 'Mandy' ............Done.
 Unload 'Mighty' ............Done.
-Unload '1up' ............Done.
-Unload 'Shermie' ............Done.
-Unload 'Steamer' ............Done.
-Unload 'Steam' ............Done.
-Unload 'Yashiro' ............Done.
-Unload 'Trash' ............Done.
-Unload 'Money' ............Done.
-Unload 'Gold' ............Done.
-Unload 'Ralf' ............Done.
-Unload 'Biker-K'' ............Done.
-Unload 'K'' ............Done.
-Unload 'Lobster' ............Done.
+Unload 'Kyoko' ............Done.
 
 Release game data............	Done!
 Release timer................	Done!
