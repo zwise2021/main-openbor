@@ -1,0 +1,30 @@
+
+[Info]
+Name         = "broly"
+DisplayName  = "broly"
+VersionDate  = 04,14,2002
+MugenVersion = 04,14,2002
+Author       = "‚í‚É‚í‚É"
+Pal.Defaults = 1,2,3,4,5,6,7,8,9,10,11,12
+
+[Files]
+Cmd     = broly.cmd
+Cns     = broly.cns
+St      = broly.cns
+StCommon = common1.cns
+Sprite  = broly.sff
+Anim    = broly.air
+Sound   = broly.snd
+
+Pal1 = default.act
+Pal2 = bihaku.act
+Pal3 = bio.act
+Pal4 = 4modoki.act
+Pal5 = majin.act
+Pal6 = shamo.act
+Pal7 = default.act
+Pal8 = bihaku.act
+Pal9 = bio.act
+Pal10 = 4modoki.act
+Pal11 = majin.act
+Pal12 = shamo.act

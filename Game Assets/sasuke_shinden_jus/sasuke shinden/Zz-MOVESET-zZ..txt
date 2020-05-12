@@ -1,0 +1,70 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Combo 3
+
+A,B or C in Air - Air Combo
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Katon Gokakyu(HOLD)
+
+D,DB,B,a - Katon Messhitsu No Jutsu
+
+D,DF,F,b - Chidori(HOLD)
+
+D,DB,B,b - Sword Slash
+
+D,DF,F,c - Shinra Tensei
+
+D,DB,B,c - Chibaku Tensei
+
+Down + A - Susano Protection
+
+Down + B - Amaterasu
+
+Down + C - Amenotejikara
+
+* When the is activated: Down + C - Amenotejikara Teleport
+
+SUPER:
+
+D,DF,F,D,DF,F,a+b - Susano ChakraCannon
+
+TRANSFORMS:
+
+* SUSANOO PERFECT:
+
+A - Punch
+
+B - Stomp
+
+C - Slash
+
+SPECIALS:
+
+D,DF,F,a - Susanoo Cataclism
+
+D,DF,F,b - Susanoo Chidori
+
+D,DF,F,c - Chibaku Tensei
+
+*KURAMA SUSANOO:
+
+A - Slash 1
+
+B - Slash 2
+
+C - Bijuudama
+
+SPECIALS:
+
+D,DF,F,a - Renzoku Bijuudama
+
+D,DF,F,b - Susanoo Storm
+
+D,DF,F,c - Amaterasu Rasen Shuriken

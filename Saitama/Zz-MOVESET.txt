@@ -1,0 +1,29 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Go To Deepths
+
+S - Power Charge
+
+
+SPECIALS:
+
+D,DF,F,a - Kick Punch
+
+D,DB,B,a - Im Here
+
+D,DF,F,b - Consecutive Normal Punches
+
+D,DB,B,b - Death Counter
+
+D,DF,F,c - Death Punch
+
+D,DB,B,c - Table Flip
+
+SUPERS: 
+
+x - Meteor Crash
+
+y - Serious Punch (life <= lifemax/2 and p2life <= lifemax/2)

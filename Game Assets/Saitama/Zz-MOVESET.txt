@@ -1,0 +1,39 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - One Punch Man
+
+S - Power Charge
+
+COMBOS:
+
+a,a,a - Combo 1
+
+b,b - Combo 2
+
+a,b,c - Air
+
+a,a,a,b,c - Full 1
+
+a,a,a,b,b,Up,a,b,c - Full 2
+
+
+SPECIALS:
+
+D,DF,F,a - Serious Punch
+
+D,DB,B,a - I'M MISSING THE SALE AT THE SUPERMARKET!!!
+
+D,DF,F,b - Consecutive Normal Punches
+
+D,DB,B,b - Im Over Here...
+
+D,DF,F,c - Death Punch
+
+D,DB,B,c - Saitama Sense
+
+SUPER: 
+
+x - Meteor Crash
