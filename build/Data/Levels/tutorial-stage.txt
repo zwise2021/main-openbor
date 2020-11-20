@@ -5,6 +5,8 @@ bossmusic	data/music/menu.bor
 ## Bonus Stage Type ##
 type 1
 direction both
+spawn1 64 5 0
+spawn2 64 35 0
 
 ## Load images in this area ##
 
@@ -73,7 +75,7 @@ order	a
 #--group1-----
 spawn rock
 health  99999999
-coords    243 200
+coords    243 170
 at    0
 
 wait
