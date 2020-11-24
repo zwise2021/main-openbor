@@ -79,3 +79,6 @@ know	selva1       	data/chars/selva1/selva1.txt
 know	that		data/chars/that/that.txt
 know gandhara data/chars/gandhara/gandhara.txt
 know	Bulet		data/chars/misc/bulet.txt
+know   draven       data/chars/draven/draven.txt
+load	knight      data/chars/knight/knight.txt
+load dust    data/chars/misc/dust.txt
