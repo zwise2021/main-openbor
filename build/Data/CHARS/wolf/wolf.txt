@@ -13,6 +13,7 @@ remap	data/chars/Wolf/idle00.gif data/chars/Wolf/map2.gif
 takedamagescript data/scripts/enemyhit.c
 
 
+
 anim	attack1
 	loop	0
 	delay	7
@@ -32,10 +33,11 @@ anim	attack1
 	frame	data/chars/Wolf/atk06.gif
 		
 anim	fall
+	bbox	3 47 58 32
 	loop	0
 	offset	38 77
 	delay	20
-	attack	41 36 24 22 4 1
+	attack	41 36 24 22 4 1 0 0 0 0
 	frame	data/chars/Wolf/fall00.gif
 	frame	data/chars/Wolf/fall00.gif
 	frame	data/chars/Wolf/fall01.gif

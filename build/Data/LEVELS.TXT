@@ -73,11 +73,14 @@ continuescore 2
 cansave 2
 noshare 1
 scene 	data/scenes/howto.txt
-scene 	data/scenes/story/story.txt
+scene 	data/levels/scenes/story/story.txt
 file 	data/levels/stage1.txt
 next
 file	data/levels/stage2.txt
 next
+file	data/levels/stage3.txt
+
+set Stage_3
 file	data/levels/stage3.txt
 
 

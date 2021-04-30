@@ -21,6 +21,11 @@ alias Ikkaku
 coords	500 190
 at	0
 
+spawn ERenji
+alias Renji
+coords	300 190
+at	0
+
 spawn menos
 health 100
 coords 500 200
@@ -29,6 +34,9 @@ at 0
 spawn gunner
 coords 500 250
 at 0
+
+wait
+at 500
 
 spawn	warning
 	coords 240 136

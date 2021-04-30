@@ -74,6 +74,7 @@ makeinv 4
 
 
 
+
 anim	attack1
 	delay	4
 	sound	data/chars/deku/deku_0-0.wav
@@ -167,7 +168,7 @@ anim	freespecial
 	@cmd	spawnparent "pdust" -10 0 -20
 	offset	22 35
 	frame	data/chars/Deku/140.gif
-	attack	23 2 59 32 20 1 1 0 10 0
+	attack	23 2 59 32 20 1 1 0 10 50
 	dropv	2 6 0
 	@cmd	spawnbind "deku_greenarm" 0 0 -23
 	@cmd	dasher 3 0 0
@@ -176,7 +177,7 @@ anim	freespecial
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	21 39
 	frame	data/chars/Deku/141.gif
-	attack	21 4 58 32 20 1 1 0 10 0
+	attack	21 4 58 32 20 1 1 0 10 50
 	dropv	2 6 0
 	offset	21 39
 	frame	data/chars/Deku/141.gif
@@ -185,7 +186,7 @@ anim	freespecial
 	offset	18 38
 	frame	data/chars/Deku/142.gif
 	@cmd	stop
-	attack	19 3 57 32 25 1 1 0 5 0
+	attack	19 3 57 32 25 1 1 0 5 50
 	dropv	2 6 0
 	offset	18 38
 	frame	data/chars/Deku/142.gif

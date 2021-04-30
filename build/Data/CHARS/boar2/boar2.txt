@@ -17,6 +17,7 @@ animationscript data/scripts/spawns.c
 
 
 
+
 anim	attack1
 	range	180 300
 	loop	0
@@ -41,10 +42,11 @@ anim	attack2
 	frame	data/chars/Boar2/shoot02.gif
 		
 anim	fall
+	bbox	2 38 69 40
 	loop	0
 	offset	38 77
 	delay	20
-	attack	41 36 24 22 4 1
+	attack	41 36 24 22 4 1 0 0 0 0
 	frame	data/chars/Boar2/fall00.gif
 	frame	data/chars/Boar2/fall00.gif
 	frame	data/chars/Boar2/fall01.gif
