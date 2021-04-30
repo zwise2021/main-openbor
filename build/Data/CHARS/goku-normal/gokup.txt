@@ -34,6 +34,7 @@ makeinv 4
 
 
 
+
 anim	attack1
 	loop	0
 	delay	5
@@ -127,7 +128,6 @@ anim	fall
 anim	freespecial
 	energycost	0
 	mponly	1
-	@cmd	enoughmp
 	loop	0
 	offset	43 78
 	range	0 200
@@ -224,7 +224,6 @@ anim	freespecial11
 anim	freespecial2
 	energycost	0
 	mponly	1
-	@cmd	enoughmp
 	loop	0
 	offset	43 86
 	delay	7
@@ -253,6 +252,61 @@ anim	freespecial3
 	frame	data/chars/Goku-normal/ki02.GIF
 	frame	data/chars/Goku-normal/ki03.GIF
 	frame	data/chars/Goku-normal/ki04.GIF
+		
+anim	freespecial4
+	energycost	0
+	mponly	1
+	loop	0
+	offset	43 78
+	range	0 200
+	delay	30
+	@cmd	spawnbind "zoomin" 0 0 0
+	@cmd	spawnscreen "Screen_wind" 0 0
+	@cmd	changeopenborvariant "slowmotion" 1
+	quakeframe	3 1 10
+	sound	data/chars/Goku-normal/kame.wav
+	frame	data/chars/Goku-normal/kame01.gif
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
+	@cmd	spawnbind "zoomout" 0 0 0
+	@cmd	changeopenborvariant "slowmotion" 0
+	delay	7
+	frame	data/chars/Goku-normal/kame02.gif
+	frame	data/chars/Goku-normal/kame03.gif
+	frame	data/chars/Goku-normal/kame04.gif
+	sound	data/chars/Goku-normal/hame.wav
+	frame	data/chars/Goku-normal/kame05.gif
+	frame	data/chars/Goku-normal/kame05_1.gif
+	frame	data/chars/Goku-normal/kame05_2.gif
+	frame	data/chars/Goku-normal/kame06.gif
+	sound	data/chars/Goku-normal/ha.wav
+	frame	data/chars/Goku-normal/kame07.gif
+	blast	74 28 174 39 40 0 0 0 0 0
+	frame	data/chars/Goku-normal/kame08.gif
+	blast	74 28 203 39 40 0 0 0 0 0
+	frame	data/chars/Goku-normal/kame09.gif
+	blast	74 28 238 39 40 0 0 0 0 0
+	frame	data/chars/Goku-normal/kame10.gif
+	blast	74 28 266 39 40 0 0 0 0 0
+	frame	data/chars/Goku-normal/kame11.gif
+	blast	74 28 336 39 40 0 0 0 0 0
+	frame	data/chars/Goku-normal/kame12.gif
+	blast	74 28 394 39 40 0 0 0 0 0
+	frame	data/chars/Goku-normal/kame13.gif
+	blast	74 28 532 39 40 0 0 0 0 0
+	frame	data/chars/Goku-normal/kame14.gif
+	blast	74 28 647 39 40 0 0 0 0 0
+	frame	data/chars/Goku-normal/kame15.gif
+	blast	74 28 743 39 40 0 0 0 0 0
+	frame	data/chars/Goku-normal/kame16.gif
+	blast	74 28 743 39 40 0 0 0 0 0
+	frame	data/chars/Goku-normal/kame17.gif
+	blast	74 28 743 39 40 0 0 0 0 0
+	frame	data/chars/Goku-normal/kame18.gif
+	blast	74 28 743 39 40 0 0 0 0 0
+	frame	data/chars/Goku-normal/kame19.gif
+	blast	74 28 743 39 40 0 0 0 0 0
+	frame	data/chars/Goku-normal/kame20.gif
+	frame	data/chars/Goku-normal/kame21.gif
 		
 anim	idle
 	loop	1
@@ -363,62 +417,6 @@ anim	spawn
 	frame	data/chars/Goku-normal/ki02.GIF
 	frame	data/chars/Goku-normal/ki03.GIF
 	frame	data/chars/Goku-normal/ki04.GIF
-		
-anim	freespecial4
-	energycost	0
-	mponly	1
-		
-	loop	0
-	offset	43 78
-	range	0 200
-	delay	30
-	@cmd	spawnbind "zoomin" 0 0 0
-	@cmd	spawnscreen "Screen_wind" 0 0
-	@cmd	changeopenborvariant "slowmotion" 1
-	quakeframe	3 1 10
-	sound	data/chars/Goku-normal/kame.wav
-	frame	data/chars/Goku-normal/kame01.gif
-	@cmd	changeentityproperty getlocalvar("self") "mp" 0
-	@cmd	spawnbind "zoomout" 0 0 0
-	@cmd	changeopenborvariant "slowmotion" 0
-	delay	7
-	frame	data/chars/Goku-normal/kame02.gif
-	frame	data/chars/Goku-normal/kame03.gif
-	frame	data/chars/Goku-normal/kame04.gif
-	sound	data/chars/Goku-normal/hame.wav
-	frame	data/chars/Goku-normal/kame05.gif
-	frame	data/chars/Goku-normal/kame05_1.gif
-	frame	data/chars/Goku-normal/kame05_2.gif
-	frame	data/chars/Goku-normal/kame06.gif
-	sound	data/chars/Goku-normal/ha.wav
-	frame	data/chars/Goku-normal/kame07.gif
-	blast	74 28 174 39 40 0 0 0 0 0
-	frame	data/chars/Goku-normal/kame08.gif
-	blast	74 28 203 39 40 0 0 0 0 0
-	frame	data/chars/Goku-normal/kame09.gif
-	blast	74 28 238 39 40 0 0 0 0 0
-	frame	data/chars/Goku-normal/kame10.gif
-	blast	74 28 266 39 40 0 0 0 0 0
-	frame	data/chars/Goku-normal/kame11.gif
-	blast	74 28 336 39 40 0 0 0 0 0
-	frame	data/chars/Goku-normal/kame12.gif
-	blast	74 28 394 39 40 0 0 0 0 0
-	frame	data/chars/Goku-normal/kame13.gif
-	blast	74 28 532 39 40 0 0 0 0 0
-	frame	data/chars/Goku-normal/kame14.gif
-	blast	74 28 647 39 40 0 0 0 0 0
-	frame	data/chars/Goku-normal/kame15.gif
-	blast	74 28 743 39 40 0 0 0 0 0
-	frame	data/chars/Goku-normal/kame16.gif
-	blast	74 28 743 39 40 0 0 0 0 0
-	frame	data/chars/Goku-normal/kame17.gif
-	blast	74 28 743 39 40 0 0 0 0 0
-	frame	data/chars/Goku-normal/kame18.gif
-	blast	74 28 743 39 40 0 0 0 0 0
-	frame	data/chars/Goku-normal/kame19.gif
-	blast	74 28 743 39 40 0 0 0 0 0
-	frame	data/chars/Goku-normal/kame20.gif
-	frame	data/chars/Goku-normal/kame21.gif
 		
 anim	walk
 	loop	1

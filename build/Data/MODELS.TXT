@@ -59,6 +59,8 @@ load spiritgun 	    data/chars/yusuke/spiritgun.txt
 load downwardspiritgun 	data/chars/yusuke/downwardspiritgun.txt
 load blue_powerball data/chars/yusuke/blue_powerball.txt
 load red_powerball data/chars/yusuke/red_powerball.txt
+load blue_spiritchargeup1 data/chars/yusuke/blue_spiritchargeup1.txt
+load blue_spiritchargeup2 data/chars/yusuke/blue_spiritchargeup2.txt
 
 # Players must also be loaded.
 Load Deku data/chars/Deku/Deku.txt

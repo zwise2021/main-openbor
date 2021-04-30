@@ -11,20 +11,20 @@ stagenumber 1
 spawn ready
 	coords 240 136
 	at 0
-	
-spawn lobster
+
+spawn Ninja
 coords	480 215
 at 310
 
-spawn lobster
+spawn Ninja
 coords	480 230
 at 310
 
-spawn lobster
+spawn Ninja
 coords	-30 220
 at 310
 
-spawn lobster
+spawn Ninja
 coords	-30 230
 at 310
 
@@ -35,38 +35,38 @@ spawn mp_twentyfive
 coords 600 220
 at 320
 
-spawn Ninja
+spawn Marine
 coords	480 215
-at 1425
+at      1425
 
-spawn Ninja
+spawn Marine
 coords	480 230
 at 1425
 
-spawn Ninja
+spawn Marine
 coords	-30 220
 at 1425
 
-spawn Ninja
+spawn Marine
 coords	-30 230
 at 1425
 
 wait
 at      1425
 
-spawn Marine
+spawn lobster
 coords	480 215
-at      2058
+at 2058
 
-spawn Marine
+spawn lobster
 coords	480 230
 at 2058
 
-spawn Marine
+spawn lobster
 coords	-30 220
 at 2058
 
-spawn Marine
+spawn lobster
 coords	-30 230
 at 2058
 

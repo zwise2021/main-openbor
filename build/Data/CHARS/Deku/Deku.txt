@@ -55,6 +55,7 @@ makeinv 4
 
 
 
+
 anim	attack1
 	delay	7
 	sound	data/chars/deku/deku_0-0.wav
@@ -249,7 +250,6 @@ anim	freespecial2
 anim	freespecial3
 	energycost	0
 	mponly	1
-	@cmd	enoughmp
 	@cmd	pause_all 1 100
 	delay	7
 	@cmd	spawnbind "zoomin" 0 0 0

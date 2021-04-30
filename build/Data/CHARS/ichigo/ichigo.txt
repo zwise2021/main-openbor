@@ -9,6 +9,7 @@ cantgrab 1
 animationscript data/scripts/spawns.c
 com a3 freespecial
 com a2 freespecial11
+com s freespecial2
 script data/scripts/playerscript.c
 
 parrow data/chars/misc/picon/1picon.gif -18 -100
@@ -74,7 +75,6 @@ anim	fall
 anim	freespecial
 	energycost	0
 	mponly	1
-	@cmd	enoughmp
 	loop	0
 	offset	58 116
 	delay	30
@@ -252,10 +252,9 @@ anim	spawn
 	offset	58 116
 	frame	data/chars/Ichigo/Idle1.gif
 		
-anim	special
+anim	freespecial2
 	energycost	0
 	mponly	1
-	@cmd	enoughmp
 	loop	0
 	offset	58 116
 	delay	30

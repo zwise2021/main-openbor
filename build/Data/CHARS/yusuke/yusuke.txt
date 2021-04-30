@@ -10,9 +10,10 @@ atchain 1 1 2 4 5 3
 bflash  bflash
 dust	 dust
 jumpheight 4
-com  a3  freespecial
+com  a3  freespecial6
 com a2 freespecial11
-com f a3 freespecial2
+com d a3 freespecial
+com u a3 freespecial7
 com s freespecial3
 com u s freespecial4
 animationscript data/scripts/spawns.c
@@ -23,6 +24,9 @@ parrow2 data/chars/misc/picon/2picon.gif -18 -100
 parrow3 data/chars/misc/picon/3picon.gif -18 -100
 parrow4 data/chars/misc/picon/4picon.gif -18 -100
 makeinv 4
+
+
+
 
 
 
@@ -89,7 +93,7 @@ anim	attack3
 		
 anim	attack4
 	drawmethod	scale 1.3
-	delay	7
+	delay	3
 	offset	17 46
 	frame	data/chars/yusuke/71.gif
 	offset	23 32
@@ -176,7 +180,8 @@ anim	freespecial
 	frame	data/chars/yusuke/97.gif
 	offset	12 45
 	frame	data/chars/yusuke/98.gif
-	attack	22 3 54 46 0 0 1 0 0 0
+	attack	22 3 54 46 20 1 1 0 0 0
+	dropv	1 6 0
 	offset	21 48
 	frame	data/chars/yusuke/99.gif
 	offset	21 48
@@ -224,10 +229,18 @@ anim	freespecial11
 anim	freespecial3
 	drawmethod	scale 1.3
 	delay	7
+	@cmd	pause_all 1 150
+	@cmd	spawnbind "zoomin" 0 0 0
+	@cmd	spawnparent "blue_spiritchargeup1" 13 0 -17
 	offset	14 47
 	frame	data/chars/yusuke/35.gif
 	offset	14 47
 	frame	data/chars/yusuke/36.gif
+	offset	14 47
+	frame	data/chars/yusuke/35.gif
+	offset	14 47
+	frame	data/chars/yusuke/36.gif
+	@cmd	spawnbind "zoomout" 0 0 0
 	offset	14 46
 	frame	data/chars/yusuke/37.gif
 	offset	14 44
@@ -247,6 +260,8 @@ anim	freespecial3
 anim	freespecial4
 	drawmethod	scale 1.3
 	delay	15
+	@cmd	pause_all 1 150
+	@cmd	spawnbind "zoomin" 0 0 0
 	@cmd	spawnparent "blue_powerup" -3 0 -22
 	offset	17 46
 	frame	data/chars/yusuke/71.gif
@@ -258,6 +273,7 @@ anim	freespecial4
 	frame	data/chars/yusuke/71.gif
 	offset	17 46
 	frame	data/chars/yusuke/71.gif
+	@cmd	spawnbind "zoomout" 0 0 0
 	offset	17 46
 	frame	data/chars/yusuke/71.gif
 	delay	7
@@ -308,14 +324,19 @@ anim	freespecial5
 	frame	data/chars/yusuke/53.gif
 		
 anim	freespecial6
+	attack	0 0 0 0 0 0 0 0 0 0
 	drawmethod	scale 1.3
 	delay	7
+	fastattack	1
 	offset	26 44
 	frame	data/chars/yusuke/102.gif
+	attack	16 2 52 45 16 0 1 0 0 0
 	offset	16 45
 	frame	data/chars/yusuke/103.gif
+	attack	0 0 0 0 0 0 0 0 0 0
 	offset	6 46
 	frame	data/chars/yusuke/104.gif
+	attack	4 0 47 48 12 0 1 0 0 0
 	offset	6 46
 	frame	data/chars/yusuke/105.gif
 	offset	4 46

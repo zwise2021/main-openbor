@@ -64,55 +64,36 @@ e4life 0 400
 e4icon 0 400
 e4name 0 400
 
-set Stage_1
+set Stages_1-3
+typemp 1
+versusdamage 0
+lives 3
+credits 5
+continuescore 2
+cansave 2
+noshare 1
+scene 	data/scenes/howto.txt
+scene 	data/scenes/story/story.txt
 file 	data/levels/stage1.txt
-
-set Stage_2
-file	data/levels/stage2.txt
-
-set Stage_3
-file	data/levels/stage3.txt
-
-set	Demo
-typemp 1
-versusdamage 0
-lives 3
-credits 5
-continuescore 2
-cansave 2
-noshare 1
-file 	data/levels/scenes/story/story.txt
-file	data/levels/tutorial.txt
-file	data/levels/stage1.txt
-
-set Easy
-typemp 1
-versusdamage 0
-lives 3
-credits 5
-continuescore 2
-cansave 2
-noshare 1
-file 	data/levels/scenes/story/story.txt
-file	data/levels/tutorial.txt
-file	data/levels/stage1.txt
 next
 file	data/levels/stage2.txt
 next
 file	data/levels/stage3.txt
-next
-z 229 272 50
-file	data/levels/stage4.txt
-next
-z 160 270 110
-file	data/levels/stage5.txt
-next
-file	data/levels/stage6.txt
-next
-z 110 270 160
-file	data/levels/stage7.txt
-next
-file	data/levels/stage8.txt
-next
-z 120 226 106
-file	data/levels/stage9.txt
+
+
+
+#z 229 272 50
+#file	data/levels/stage4.txt
+#next
+#z 160 270 110
+#file	data/levels/stage5.txt
+#next
+#file	data/levels/stage6.txt
+#next
+#z 110 270 160
+#file	data/levels/stage7.txt
+#next
+#file	data/levels/stage8.txt
+#next
+#z 120 226 106
+#file	data/levels/stage9.txt

@@ -8,7 +8,7 @@ running 18 4 2 1 1
 animationscript data/scripts/spawns.c
 com      a3 freespecial
 com      a2 freespecial11
-com      a4 freespecial3
+com      s freespecial2
 script data/scripts/playerscript.c
 icon	data/chars/lee/0.gif
 
@@ -17,6 +17,8 @@ parrow2 data/chars/misc/picon/2picon.gif -18 -100
 parrow3 data/chars/misc/picon/3picon.gif -18 -100
 parrow4 data/chars/misc/picon/4picon.gif -18 -100
 makeinv 4
+
+
 
 
 
@@ -165,10 +167,10 @@ anim	follow1
 anim	freespecial
 	energycost	0
 	mponly	1
-	@cmd	enoughmp
 	fastattack	1
 	mponly	1
 	delay	30
+	@cmd	pause_all 1 100
 	sound	data/chars/lee/lee_0-2.wav
 	@cmd	spawnbind "zoomin" 0 0 0
 	@cmd	spawnscreen "Screen_wind" 0 0
@@ -293,6 +295,73 @@ anim	freespecial11
 	delay	7
 	offset	8 41
 	frame	data/chars/Lee/160.gif
+		
+anim	freespecial2
+	energycost	0
+	mponly	1
+	attack	0 0 0 0 0 0 0 0 0 0
+	fastattack	1
+	delay	30
+	@cmd	pause_all 1 100
+	sound	data/chars/lee/lee_0-4.wav
+	@cmd	spawnbind "zoomin" 0 0 0
+	@cmd	spawnscreen "Screen_wind" 0 0
+	@cmd	changeopenborvariant "slowmotion" 1
+	offset	11 48
+	frame	data/chars/Lee/95.gif
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
+	@cmd	spawnbind "zoomout" 0 0 0
+	@cmd	changeopenborvariant "slowmotion" 0
+	delay	10
+	offset	11 47
+	frame	data/chars/Lee/96.gif
+	delay	30
+	offset	14 51
+	frame	data/chars/Lee/97.gif
+	delay	10
+	offset	13 52
+	frame	data/chars/Lee/98.gif
+	delay	10
+	offset	12 41
+	frame	data/chars/Lee/177.gif
+	offset	12 42
+	frame	data/chars/Lee/174.gif
+	sound	data/chars/lee/lee_5-6.wav
+	attack	22 3 54 30 14 0 1 0 0 0
+	offset	12 42
+	frame	data/chars/Lee/175.gif
+	@cmd	dasher 2 0 0
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	13 39
+	frame	data/chars/Lee/176.gif
+	attack	24 1 47 42 15 0 1 0 0 0
+	offset	24 41
+	frame	data/chars/Lee/180.gif
+	sound	data/chars/lee/lee_5-4.wav
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	21 50
+	frame	data/chars/Lee/179.gif
+	@cmd	stop
+	delay	20
+	blast	14 1 51 42 16 1 1 0 0 0
+	offset	25 42
+	frame	data/chars/Lee/178.gif
+	@cmd	spawnparent "pdust" -10 0 -20
+	fshadow	0
+	move	0
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	frame	data/chars/misc/empty.gif
+	fshadow	3
+	delay	7
+	sound	data/chars/yusuke/broly_5-22.wav
+	offset	11 32
+	frame	data/chars/Lee/181.gif
+	offset	11 29
+	frame	data/chars/Lee/182.gif
 		
 anim	idle
 	delay	12
@@ -425,73 +494,6 @@ anim	spawn
 	bbox	0 1 35 48
 	offset	17 45
 	frame	data/chars/Lee/3.gif
-		
-anim	special
-	energycost	0
-	mponly	1
-	@cmd	enoughmp
-	mponly	1
-	attack	0 0 0 0 0 0 0 0 0 0
-	fastattack	1
-	delay	30
-	sound	data/chars/lee/lee_0-4.wav
-	@cmd	spawnbind "zoomin" 0 0 0
-	@cmd	spawnscreen "Screen_wind" 0 0
-	@cmd	changeopenborvariant "slowmotion" 1
-	offset	11 48
-	frame	data/chars/Lee/95.gif
-	@cmd	changeentityproperty getlocalvar("self") "mp" 0
-	@cmd	spawnbind "zoomout" 0 0 0
-	@cmd	changeopenborvariant "slowmotion" 0
-	delay	10
-	offset	11 47
-	frame	data/chars/Lee/96.gif
-	delay	30
-	offset	14 51
-	frame	data/chars/Lee/97.gif
-	delay	10
-	offset	13 52
-	frame	data/chars/Lee/98.gif
-	delay	10
-	offset	12 41
-	frame	data/chars/Lee/177.gif
-	offset	12 42
-	frame	data/chars/Lee/174.gif
-	sound	data/chars/lee/lee_5-6.wav
-	attack	22 3 54 30 14 0 1 0 0 0
-	offset	12 42
-	frame	data/chars/Lee/175.gif
-	@cmd	dasher 2 0 0
-	attack	0 0 0 0 0 0 0 0 0 0
-	offset	13 39
-	frame	data/chars/Lee/176.gif
-	attack	24 1 47 42 15 0 1 0 0 0
-	offset	24 41
-	frame	data/chars/Lee/180.gif
-	sound	data/chars/lee/lee_5-4.wav
-	attack	0 0 0 0 0 0 0 0 0 0
-	offset	21 50
-	frame	data/chars/Lee/179.gif
-	@cmd	stop
-	delay	20
-	blast	14 1 51 42 16 1 1 0 0 0
-	offset	25 42
-	frame	data/chars/Lee/178.gif
-	@cmd	spawnparent "pdust" -10 0 -20
-	fshadow	0
-	move	0
-	frame	data/chars/misc/empty.gif
-	frame	data/chars/misc/empty.gif
-	frame	data/chars/misc/empty.gif
-	frame	data/chars/misc/empty.gif
-	frame	data/chars/misc/empty.gif
-	frame	data/chars/misc/empty.gif
-	fshadow	3
-	delay	7
-	offset	11 32
-	frame	data/chars/Lee/181.gif
-	offset	11 29
-	frame	data/chars/Lee/182.gif
 		
 anim	walk
 	delay	7

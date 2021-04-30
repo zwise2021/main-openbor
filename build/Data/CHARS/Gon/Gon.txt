@@ -62,6 +62,7 @@ makeinv  4
 
 
 
+
 anim	attack1
 	sound	data/chars/gon/gon_0-23.wav
 	delay	7
@@ -234,8 +235,7 @@ anim	freespecial11
 anim	freespecial2
 	energycost	0
 	mponly	1
-	@cmd	enoughmp
-	delay	10
+	delay	40
 	@cmd	pause_all 1 250
 	@cmd	spawnbind "zoomin" 0 0 0
 	@cmd	spawnbind "g_charge" -3 16 0
@@ -272,7 +272,7 @@ anim	freespecial2
 anim	freespecial3
 	energycost	0
 	mponly	1
-	delay	10
+	delay	40
 	@cmd	pause_all 1 250
 	@cmd	spawnbind "zoomin" 0 0 0
 	@cmd	spawnbind "g_charge" -3 16 0
@@ -310,6 +310,46 @@ anim	freespecial3
 	frame	data/chars/Gon/193.gif
 	offset	23 41
 	frame	data/chars/Gon/194.gif
+		
+anim	freespecial4
+	energycost	0
+	mponly	1
+	delay	40
+	@cmd	pause_all 1 250
+	@cmd	spawnbind "zoomin" 0 0 0
+	@cmd	spawnbind "g_charge" -3 16 0
+	sound	data/chars/gon/gon_0-9.wav
+	offset	13 37
+	frame	data/chars/Gon/155.gif
+	offset	13 38
+	frame	data/chars/Gon/156.gif
+	sound	data/chars/gon/gon_0-10.wav
+	offset	13 37
+	frame	data/chars/Gon/157.gif
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
+	@cmd	spawnbind "zoomout" 0 0 0
+	delay	5
+	@cmd	spawnbind "g_knife" -3 16 0
+	offset	19 41
+	sound	data/chars/gon/gon_0-18.wav
+	frame	data/chars/Gon/167.gif
+	@cmd	dasher 25 0 0
+	offset	18 41
+	frame	data/chars/Gon/168.gif
+	@cmd	stop
+	delay	10
+	offset	18 41
+	frame	data/chars/Gon/169.gif
+	offset	18 41
+	frame	data/chars/Gon/169.gif
+	offset	18 41
+	frame	data/chars/Gon/169.gif
+	offset	18 41
+	frame	data/chars/Gon/169.gif
+	offset	18 41
+	frame	data/chars/Gon/169.gif
+	offset	22 42
+	frame	data/chars/Gon/170.gif
 		
 anim	idle
 	bbox	8 3 17 38
@@ -464,46 +504,6 @@ anim	spawn
 	frame	data/chars/Gon/125.gif
 	offset	19 42
 	frame	data/chars/Gon/126.gif
-		
-anim	freespecial4
-	energycost	0
-	mponly	1
-	delay	10
-	@cmd	pause_all 1 250
-	@cmd	spawnbind "zoomin" 0 0 0
-	@cmd	spawnbind "g_charge" -3 16 0
-	sound	data/chars/gon/gon_0-9.wav
-	offset	13 37
-	frame	data/chars/Gon/155.gif
-	offset	13 38
-	frame	data/chars/Gon/156.gif
-	sound	data/chars/gon/gon_0-10.wav
-	offset	13 37
-	frame	data/chars/Gon/157.gif
-	@cmd	changeentityproperty getlocalvar("self") "mp" 0
-	@cmd	spawnbind "zoomout" 0 0 0
-	delay	5
-	@cmd	spawnbind "g_knife" -3 16 0
-	offset	19 41
-	sound	data/chars/gon/gon_0-18.wav
-	frame	data/chars/Gon/167.gif
-	@cmd	dasher 25 0 0
-	offset	18 41
-	frame	data/chars/Gon/168.gif
-	@cmd	stop
-	delay	10
-	offset	18 41
-	frame	data/chars/Gon/169.gif
-	offset	18 41
-	frame	data/chars/Gon/169.gif
-	offset	18 41
-	frame	data/chars/Gon/169.gif
-	offset	18 41
-	frame	data/chars/Gon/169.gif
-	offset	18 41
-	frame	data/chars/Gon/169.gif
-	offset	22 42
-	frame	data/chars/Gon/170.gif
 		
 anim	turn
 	delay	7

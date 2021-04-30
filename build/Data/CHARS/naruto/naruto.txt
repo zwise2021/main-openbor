@@ -32,6 +32,7 @@ makeinv 4
 
 
 
+
 anim	attack1
 	loop	0
 	delay	3
@@ -90,6 +91,80 @@ anim	fall
 	frame	data/chars/Naruto/fall00.gif
 	delay	20
 	frame	data/chars/Naruto/fall01.gif
+		
+anim	freespecial
+	energycost	0
+	mponly	1
+	loop	0
+	delay	30
+	@cmd	spawnbind "zoomin" 0 0 0
+	@cmd	spawnscreen "Screen_wind" 0 0
+	@cmd	changeopenborvariant "slowmotion" 1
+	offset	60 116
+	sound	data/chars/Naruto/kage.wav
+	frame	data/chars/Naruto/spec00.gif
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
+	@cmd	spawnbind "zoomout" 0 0 0
+	@cmd	changeopenborvariant "slowmotion" 0
+	delay	10
+	frame	data/chars/Naruto/spec01.gif
+	frame	data/chars/Naruto/spec02.gif
+	frame	data/chars/Naruto/spec03.gif
+	frame	data/chars/Naruto/spec04.gif
+	frame	data/chars/Naruto/spec05.gif
+	frame	data/chars/Naruto/spec06.gif
+	frame	data/chars/Naruto/spec07.gif
+	attack	-17 27 157 89 25 1 0 0 15 0
+	frame	data/chars/Naruto/spec08.gif
+	frame	data/chars/Naruto/spec09.gif
+	frame	data/chars/Naruto/spec10.gif
+	blast	0
+	frame	data/chars/Naruto/spec11.gif
+	frame	data/chars/Naruto/spec03.gif
+	frame	data/chars/Naruto/spec12.gif
+	frame	data/chars/Naruto/spec13.gif
+	frame	data/chars/Naruto/spec14.gif
+	frame	data/chars/Naruto/spec15.gif
+		
+anim	freespecial11
+	sound	data/chars/yusuke/broly_5-22.wav
+	delay	7
+	offset	60 116
+	frame	data/chars/Naruto/run05.gif
+	delay	2
+	@cmd	dasher 3 0 0
+	fshadow	0
+	drawmethod	scale 0.3 0.2
+	drawmethod	alpha 1
+	offset	179 61
+	frame	data/chars/yusuke/840.gif
+	offset	178 63
+	frame	data/chars/yusuke/841.gif
+	offset	219 65
+	frame	data/chars/yusuke/842.gif
+	offset	225 79
+	frame	data/chars/yusuke/843.gif
+	offset	222 82
+	frame	data/chars/yusuke/844.gif
+	offset	223 79
+	frame	data/chars/yusuke/845.gif
+	offset	226 80
+	frame	data/chars/yusuke/846.gif
+	offset	219 83
+	frame	data/chars/yusuke/847.gif
+	offset	209 83
+	frame	data/chars/yusuke/848.gif
+	@cmd	stop
+	@cmd	dasher 7 0 0
+	delay	7
+	frame	data/chars/misc/empty.gif
+	drawmethod	scale 1
+	drawmethod	alpha 0
+	@cmd	stop
+	fshadow	3
+	delay	7
+	offset	60 116
+	frame	data/chars/Naruto/run05.gif
 		
 anim	freespecial4
 	loop	0
@@ -165,46 +240,6 @@ anim	freespecial4
 	frame	data/chars/Naruto/upper02.gif
 	delay	30
 	frame	data/chars/Naruto/upper03.gif
-		
-anim	freespecial11
-	sound	data/chars/yusuke/broly_5-22.wav
-	delay	7
-	offset	60 116
-	frame	data/chars/Naruto/run05.gif
-	delay	2
-	@cmd	dasher 3 0 0
-	fshadow	0
-	drawmethod	scale 0.3 0.2
-	drawmethod	alpha 1
-	offset	179 61
-	frame	data/chars/yusuke/840.gif
-	offset	178 63
-	frame	data/chars/yusuke/841.gif
-	offset	219 65
-	frame	data/chars/yusuke/842.gif
-	offset	225 79
-	frame	data/chars/yusuke/843.gif
-	offset	222 82
-	frame	data/chars/yusuke/844.gif
-	offset	223 79
-	frame	data/chars/yusuke/845.gif
-	offset	226 80
-	frame	data/chars/yusuke/846.gif
-	offset	219 83
-	frame	data/chars/yusuke/847.gif
-	offset	209 83
-	frame	data/chars/yusuke/848.gif
-	@cmd	stop
-	@cmd	dasher 7 0 0
-	delay	7
-	frame	data/chars/misc/empty.gif
-	drawmethod	scale 1
-	drawmethod	alpha 0
-	@cmd	stop
-	fshadow	3
-	delay	7
-	offset	60 116
-	frame	data/chars/Naruto/run05.gif
 		
 anim	get
 	loop	0
@@ -320,41 +355,6 @@ anim	spawn
 	offset	60 116
 	bbox	43 65 25 51
 	frame	data/chars/Naruto/idle00.gif
-		
-anim	freespecial
-	energycost	0
-	mponly	1
-	@cmd	enoughmp
-	loop	0
-	delay	30
-	@cmd	spawnbind "zoomin" 0 0 0
-	@cmd	spawnscreen "Screen_wind" 0 0
-	@cmd	changeopenborvariant "slowmotion" 1
-	offset	60 116
-	sound	data/chars/Naruto/kage.wav
-	frame	data/chars/Naruto/spec00.gif
-	@cmd	changeentityproperty getlocalvar("self") "mp" 0
-	@cmd	spawnbind "zoomout" 0 0 0
-	@cmd	changeopenborvariant "slowmotion" 0
-	delay	10
-	frame	data/chars/Naruto/spec01.gif
-	frame	data/chars/Naruto/spec02.gif
-	frame	data/chars/Naruto/spec03.gif
-	frame	data/chars/Naruto/spec04.gif
-	frame	data/chars/Naruto/spec05.gif
-	frame	data/chars/Naruto/spec06.gif
-	frame	data/chars/Naruto/spec07.gif
-	attack	-17 27 157 89 25 1 0 0 15 0
-	frame	data/chars/Naruto/spec08.gif
-	frame	data/chars/Naruto/spec09.gif
-	frame	data/chars/Naruto/spec10.gif
-	blast	0
-	frame	data/chars/Naruto/spec11.gif
-	frame	data/chars/Naruto/spec03.gif
-	frame	data/chars/Naruto/spec12.gif
-	frame	data/chars/Naruto/spec13.gif
-	frame	data/chars/Naruto/spec14.gif
-	frame	data/chars/Naruto/spec15.gif
 		
 anim	walk
 	loop	1
