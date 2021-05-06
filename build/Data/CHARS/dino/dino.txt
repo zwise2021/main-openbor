@@ -5,6 +5,7 @@ speed	10
 type	enemy
 shadow	3
 icon	data/chars/Dino/icon.gif
+subject_to_screen 1
 
 
 remap	data/chars/Dino/idle00.gif data/chars/Dino/map1.gif

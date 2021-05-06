@@ -56,6 +56,9 @@ makeinv 4
 
 
 
+
+
+
 anim	attack1
 	delay	7
 	sound	data/chars/deku/deku_0-0.wav
@@ -136,6 +139,7 @@ anim	fall
 anim	freespecial
 	energycost	10
 	mponly	1
+	@cmd	isavailable 2
 	delay	7
 	fastattack	1
 	delay	30
@@ -215,6 +219,7 @@ anim	freespecial11
 anim	freespecial2
 	energycost	30
 	mponly	1
+	@cmd	isavailable 5
 	delay	10
 	fastattack	1
 	delay	30
@@ -225,15 +230,43 @@ anim	freespecial2
 	@cmd	spawnbind "zoomout" 0 0 0
 	@cmd	changeopenborvariant "slowmotion" 0
 	@cmd	spawnparent "pdust" -10 0 -20
-	@cmd	dasher 5 0 0
+	@cmd	dasher 2 0 0
 	delay	10
 	offset	20 32
 	frame	data/chars/Deku/155.gif
-	attack	15 1 51 35 20 1 1 0 0 0
-	dropv	1 12 0
+	attack	0 0 0 0 0 0 0 0 0 0
 	offset	25 43
 	frame	data/chars/Deku/156.gif
+	attack	13 1 42 49 20 1 0 1 0 0
+	dropv	2 2 0
+	offset	16 48
+	frame	data/chars/Deku/157.gif
 	attack	0 0 0 0 0 0 0 0 0 0
+	offset	20 32
+	frame	data/chars/Deku/155.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	25 43
+	frame	data/chars/Deku/156.gif
+	attack	14 1 41 48 20 1 0 1 0 0
+	dropv	2 2 0
+	offset	16 48
+	frame	data/chars/Deku/157.gif
+	offset	20 32
+	frame	data/chars/Deku/155.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	25 43
+	frame	data/chars/Deku/156.gif
+	attack	12 0 47 50 20 1 0 1 0 0
+	dropv	2 2 0
+	offset	16 48
+	frame	data/chars/Deku/157.gif
+	offset	20 32
+	frame	data/chars/Deku/155.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	offset	25 43
+	frame	data/chars/Deku/156.gif
+	attack	17 1 44 48 30 1 0 1 0 0
+	dropv	1 12 0
 	offset	16 48
 	frame	data/chars/Deku/157.gif
 	@cmd	stop
@@ -250,6 +283,7 @@ anim	freespecial2
 anim	freespecial3
 	energycost	0
 	mponly	1
+	@cmd	isavailable 4
 	@cmd	pause_all 1 100
 	delay	7
 	@cmd	spawnbind "zoomin" 0 0 0
@@ -286,7 +320,9 @@ anim	freespecial3
 		
 anim	freespecial4
 	delay	10
+	@cmd	isavailable 7
 	weaponframe	7 1
+	sound	data/chars/Deku/Deku_0-23.wav
 	offset	20 46
 	frame	data/chars/Deku/49.gif
 	offset	19 47
@@ -308,6 +344,7 @@ anim	freespecial4
 anim	freespecial5
 	energycost	20
 	mponly	1
+	@cmd	isavailable 3
 	fastattack	1
 	delay	30
 	@cmd	spawnbind "zoomin" 0 0 0

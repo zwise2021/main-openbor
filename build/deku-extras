@@ -320,3 +320,19 @@ delay 10
     void self = getlocalvar("self");
       performattack(getlocalvar("self"), openborconstant("ANI_FREESPECIAL"));
 	@end_script
+
+	
+	offset	18 49
+	frame	data/chars/Deku/146.gif
+	offset	23 42
+	frame	data/chars/Deku/147.gif
+	offset	34 44
+	frame	data/chars/Deku/148.gif
+	offset	23 43
+	frame	data/chars/Deku/149.gif
+	offset	23 43
+	frame	data/chars/Deku/150.gif
+	offset	18 43
+	frame	data/chars/Deku/151.gif
+	offset	14 42
+	frame	data/chars/Deku/152.gif

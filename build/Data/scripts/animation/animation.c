@@ -1461,46 +1461,84 @@ void cancel(int RxMin, int RxMax, int RyMin, int RyMax, int RzMin, int RzMax, vo
 	}
 }
 
-void enoughmp() {
+void isavailable( int mlevel ) {
 	void self 	= getlocalvar("self");
 	void AniID = getani();
 	int mp		= getentityproperty(self, "mp"); //Get entity's MP
 	int maxmp	= getentityproperty(self, "maxmp"); //Get entity's Max MP
-	changeentityproperty(self,"energycost",0, 1, 0);
-	int specialcount = numspecials(self);
-	if(mp < maxmp) {
+	int energycost	= getentityproperty(self, "energycost"); //Get entity's Max MP
+	void pindex = getentityproperty(self, "playerindex"); //get current player index
+	int Level=getglobalvar("level."+pindex);
+	if(Level >= mlevel) {
+		if(mlevel==4 || mlevel==6 || mlevel==7) {
+			if(mp < maxmp) {
+				anichange(openborconstant("ANI_SPAWN"));
+				setidle(self, openborconstant("ANI_SPAWN"));
+				mpcost(0);
+			}
+		}
+	}
+	else {
 		anichange(openborconstant("ANI_SPAWN"));
 		setidle(self, openborconstant("ANI_SPAWN"));
 		mpcost(0);
 	}
-	else {
-		if(AniID == openborconstant("ANI_FREESPECIAL") && maxmp >= 200)
-		{
-			changeentityproperty(self, "mp", 0);
-		}
-		else if(AniID == openborconstant("ANI_FREESPECIAL2") && maxmp >= 400)
-		{
-			changeentityproperty(self, "mp", 0);
-		}
-		else if(AniID == openborconstant("ANI_FREESPECIAL3") && maxmp >= 600)
-		{
-			changeentityproperty(self, "mp", 0);
-		}
-		else if(AniID == openborconstant("ANI_SPECIAL") && maxmp >= 800)
-		{
-			changeentityproperty(self, "mp", 0);
-		}
-		else if(AniID == openborconstant("ANI_FREESPECIAL4") && maxmp >= 1000)
-		{
-			changeentityproperty(self, "mp", 0);
-		}
-		else 
-		{
+}
+
+void enoughmp() {
+	/*void self 	= getlocalvar("self");
+	void AniID = getani();
+	int mp		= getentityproperty(self, "mp"); //Get entity's MP
+	int maxmp	= getentityproperty(self, "maxmp"); //Get entity's Max MP
+	int energycost	= getentityproperty(self, "energycost"); //Get entity's Max MP
+	void pindex = getentityproperty(self, "playerindex"); //get current player index
+	int Level=getglobalvar("level."+pindex);
+	//changeentityproperty(self,"energycost",0, 1, 0);
+	int specialcount = numspecials(self);
+	if(energycost==NULL()) {
+		if(mp < maxmp) {
 			anichange(openborconstant("ANI_SPAWN"));
 			setidle(self, openborconstant("ANI_SPAWN"));
 			mpcost(0);
 		}
+		else {
+			if(Level >= 4 && Level < 6)
+			{
+				changeentityproperty(self, "mp", 0);
+			}
+			else if(Level == 6)
+			{
+				changeentityproperty(self, "mp", 0);
+			}
+			else if(Level >= 7)
+			{
+				changeentityproperty(self, "mp", 0);
+			}
+			else if(maxmp >= 800)
+			{
+				changeentityproperty(self, "mp", 0);
+			}
+			else if(maxmp >= 1000)
+			{
+				changeentityproperty(self, "mp", 0);
+			}
+			else 
+			{
+				anichange(openborconstant("ANI_SPAWN"));
+				setidle(self, openborconstant("ANI_SPAWN"));
+				mpcost(0);
+			}
+		}
+
 	}
+	else {
+		if(mp < energycost) {
+			anichange(openborconstant("ANI_SPAWN"));
+			setidle(self, openborconstant("ANI_SPAWN"));
+			mpcost(0);
+		}
+
+	}*/
 }
 
 int numspecials(void player) {

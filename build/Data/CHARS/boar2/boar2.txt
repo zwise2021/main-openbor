@@ -8,6 +8,7 @@ icon	data/chars/Boar2/icon.gif
 
 
 load	knife3
+subject_to_screen 1
 
 
 remap	data/chars/Boar2/idle00.gif data/chars/Boar2/map1.gif

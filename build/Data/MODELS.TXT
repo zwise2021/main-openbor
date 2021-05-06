@@ -192,6 +192,11 @@ know Grand_Fisher 	data/chars/fish/fish.txt
 know Menos 			data/chars/menos/menos.txt
 know Shrieker 		data/chars/shriek/shriek.txt
 know Tsukaima 		data/chars/tsu/tsu.txt
+know DB_Boar 		data/chars/dragonball/boar/boar.txt
+know DB_Boar2 		data/chars/dragonball/boar2/boar2.txt
+know DB_Dino		data/chars/dragonball/dino/dino.txt
+know DB_Theif 		data/chars/dragonball/theif/theif.txt
+know DB_Wolf 		data/chars/dragonball/wolf/wolf.txt
 
 # Not a real enemy... ;)
 know	Ramon		data/chars/ramon/ramon.txt

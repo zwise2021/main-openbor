@@ -8,6 +8,7 @@ icon	data/chars/Ninja/icon.gif
 bflash  bflash
 dust	 dust
 jumpheight 3
+subject_to_screen 1
 animationscript data/scripts/spawns.c
 takedamagescript data/scripts/enemyhit.c
 

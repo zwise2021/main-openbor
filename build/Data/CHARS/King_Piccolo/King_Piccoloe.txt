@@ -48,6 +48,7 @@ ondeathscript data/scripts/bossdeath.c
 
 
 
+
 anim	attack1
 	delay	7
 	offset	30 47
@@ -126,7 +127,7 @@ anim	fall
 	bbox	1 3 53 34
 	offset	24 35
 	frame	data/chars/King_Piccolo/249.gif
-	bbox	0 0 0 0
+	bbox	0 1 70 16
 	offset	36 13
 	frame	data/chars/King_Piccolo/253.gif
 		

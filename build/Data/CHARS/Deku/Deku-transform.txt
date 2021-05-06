@@ -75,6 +75,9 @@ makeinv 4
 
 
 
+
+
+
 anim	attack1
 	delay	4
 	sound	data/chars/deku/deku_0-0.wav
@@ -82,7 +85,7 @@ anim	attack1
 	frame	data/chars/Deku/61.gif
 	offset	16 43
 	frame	data/chars/Deku/62.gif
-	attack	26 12 27 12 8 0 1 0 0 0
+	attack	26 12 27 12 16 0 1 0 0 0
 	offset	16 43
 	frame	data/chars/Deku/63.gif
 		
@@ -96,7 +99,7 @@ anim	attack2
 	frame	data/chars/Deku/66.gif
 	offset	23 42
 	frame	data/chars/Deku/67.gif
-	attack	22 4 52 17 8 0 1 0 0 0
+	attack	22 4 52 17 16 0 1 0 0 0
 	offset	17 37
 	frame	data/chars/Deku/68.gif
 	offset	17 37
@@ -112,7 +115,7 @@ anim	attack3
 	frame	data/chars/Deku/71.gif
 	offset	16 49
 	frame	data/chars/Deku/72.gif
-	attack	20 2 21 31 13 1 1 0 0 0
+	attack	20 2 21 31 26 1 1 0 0 0
 	dropv	5 0 -1
 	offset	16 48
 	frame	data/chars/Deku/73.gif
@@ -373,6 +376,9 @@ anim	freespecial5
 	frame	data/chars/Deku/98.gif
 		
 anim	freespecial6
+	energycost	15
+	mponly	1
+	sound	data/chars/Deku/Deku_0-47.wav
 	@cmd	spawn01 "quake" 0 0 4
 	delay	10
 	@cmd	pause_all 1 250
@@ -434,6 +440,7 @@ anim	freespecial7
 	energycost	20
 	mponly	1
 	delay	10
+	sound	data/chars/Deku/Deku_0-28.wav
 	@cmd	pause_all 1 200
 	@cmd	spawnbind "zoomin" 0 0 0
 	@cmd	spawnparent "blue_powerup" 0 0 -18
@@ -470,6 +477,7 @@ anim	freespecial7
 	@cmd	changeopenborvariant "slowmotion" 0
 	@cmd	spawnparent "pdust" -10 0 -20
 	delay	7
+	sound	data/chars/Deku/Deku_0-24.wav
 	offset	23 42
 	frame	data/chars/Deku/147.gif
 	attack	22 3 93 42 40 1 1 0 0 0
@@ -569,13 +577,13 @@ anim	jumpattack
 	frame	data/chars/Deku/114.gif
 	offset	19 41
 	frame	data/chars/Deku/115.gif
-	attack	14 1 63 42 10 0 1 0 0 0
+	attack	14 1 63 42 20 0 1 0 0 0
 	offset	28 41
 	frame	data/chars/Deku/116.gif
 	attack	0 0 0 0 0 0 0 0 0 0
 	offset	27 40
 	frame	data/chars/Deku/117.gif
-	attack	14 1 63 42 10 0 0 1 0 0
+	attack	14 1 63 42 20 0 0 1 0 0
 	offset	18 44
 	frame	data/chars/Deku/118.gif
 	offset	21 42
@@ -587,7 +595,7 @@ anim	jumpattack2
 	frame	data/chars/Deku/109.gif
 	offset	15 49
 	frame	data/chars/Deku/110.gif
-	attack	1 1 80 84 10 1 1 0 0 0
+	attack	1 1 80 84 20 1 1 0 0 0
 	offset	19 52
 	frame	data/chars/Deku/111.gif
 	offset	15 42
@@ -652,7 +660,7 @@ anim	runattack
 	@cmd	stop
 	offset	16 48
 	frame	data/chars/Deku/73.gif
-	attack	20 2 21 31 13 1 1 0 0 0
+	attack	20 2 21 31 26 1 1 0 0 0
 	dropv	5 0 -1
 	offset	16 48
 	frame	data/chars/Deku/73.gif

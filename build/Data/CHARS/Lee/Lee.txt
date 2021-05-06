@@ -53,6 +53,7 @@ makeinv 4
 
 
 
+
 anim	attack1
 	delay	4
 	offset	13 44
@@ -165,7 +166,8 @@ anim	follow1
 	frame	data/chars/Lee/98.gif
 		
 anim	freespecial
-	energycost	0
+	@cmd	isavailable 2
+	energycost	10
 	mponly	1
 	fastattack	1
 	mponly	1
@@ -177,7 +179,6 @@ anim	freespecial
 	@cmd	changeopenborvariant "slowmotion" 1
 	offset	11 48
 	frame	data/chars/Lee/95.gif
-	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	@cmd	spawnbind "zoomout" 0 0 0
 	@cmd	changeopenborvariant "slowmotion" 0
 	delay	10
@@ -297,6 +298,7 @@ anim	freespecial11
 	frame	data/chars/Lee/160.gif
 		
 anim	freespecial2
+	@cmd	isavailable 4
 	energycost	0
 	mponly	1
 	attack	0 0 0 0 0 0 0 0 0 0

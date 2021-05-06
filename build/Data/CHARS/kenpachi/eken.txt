@@ -1,12 +1,12 @@
 name	EKenpachi
 health	500
+mp      300
 speed	15
 type	enemy
 aggression 32
 cantgrab 1
 riseinv 2 0
 makeinv 2 0
-aimove chase
 escapehits 1
 candamage player npc obstacle
 hostile npc player

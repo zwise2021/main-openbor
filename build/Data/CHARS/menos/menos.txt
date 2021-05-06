@@ -4,10 +4,11 @@ speed	5
 type	enemy
 shadow	0
 cantgrab 1
+subject_to_screen 1
 
 
 anim	attack1
-	loop	0
+	delay	7
 	offset	93 127
 	bbox	59 18 92 109
 	sound	data/sounds/att.wav

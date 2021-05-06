@@ -38,6 +38,7 @@ makeinv 4
 
 
 
+
 anim	attack1
 	loop	0
 	delay	7
@@ -101,6 +102,7 @@ anim	fall
 		
 anim	freespecial
 	energycost	0
+	@cmd	isavailable 2
 	mponly	1
 	loop	0
 	offset	82 78
@@ -177,6 +179,7 @@ anim	freespecial11
 anim	freespecial2
 	energycost	0
 	mponly	1
+	@cmd	isavailable 3
 	loop	0
 	offset	43 78
 	sound	data/chars/Luffy/storm.wav
@@ -229,6 +232,7 @@ anim	freespecial2
 anim	freespecial3
 	energycost	0
 	mponly	1
+	@cmd	isavailable 7
 	loop	0
 	offset	44 77
 	weaponframe	20 1

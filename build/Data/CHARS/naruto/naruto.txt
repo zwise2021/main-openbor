@@ -11,6 +11,7 @@ bflash  bflash
 dust	 dust
 jumpheight 3
 com  a3  freespecial
+com u a3 freespecial2
 com a2 freespecial11
 com s freespecial4
 animationscript data/scripts/spawns.c
@@ -21,6 +22,8 @@ parrow2 data/chars/misc/picon/2picon.gif -18 -100
 parrow3 data/chars/misc/picon/3picon.gif -18 -100
 parrow4 data/chars/misc/picon/4picon.gif -18 -100
 makeinv 4
+
+
 
 
 
@@ -93,17 +96,17 @@ anim	fall
 	frame	data/chars/Naruto/fall01.gif
 		
 anim	freespecial
-	energycost	0
+	@cmd	isavailable 2
+	energycost	10
 	mponly	1
 	loop	0
+	@cmd	pause_all 1 10
 	delay	30
 	@cmd	spawnbind "zoomin" 0 0 0
-	@cmd	spawnscreen "Screen_wind" 0 0
 	@cmd	changeopenborvariant "slowmotion" 1
 	offset	60 116
 	sound	data/chars/Naruto/kage.wav
 	frame	data/chars/Naruto/spec00.gif
-	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	@cmd	spawnbind "zoomout" 0 0 0
 	@cmd	changeopenborvariant "slowmotion" 0
 	delay	10
@@ -114,7 +117,8 @@ anim	freespecial
 	frame	data/chars/Naruto/spec05.gif
 	frame	data/chars/Naruto/spec06.gif
 	frame	data/chars/Naruto/spec07.gif
-	attack	-17 27 157 89 25 1 0 0 15 0
+	attack	-17 27 157 89 30 1 0 0 15 120
+	dropv	2 5 0
 	frame	data/chars/Naruto/spec08.gif
 	frame	data/chars/Naruto/spec09.gif
 	frame	data/chars/Naruto/spec10.gif
@@ -166,7 +170,58 @@ anim	freespecial11
 	offset	60 116
 	frame	data/chars/Naruto/run05.gif
 		
+anim	freespecial2
+	@cmd	isavailable 3
+	energycost	20
+	mponly	1
+	delay	6
+	fastattack	1
+	offset	60 116
+	sound	data/chars/Naruto/ha.wav
+	frame	data/chars/Naruto/jab00.gif
+	attack	63 68 60 47 8 0 0 0 0 0
+	frame	data/chars/Naruto/jab01.gif
+	frame	data/chars/Naruto/jab02.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	frame	data/chars/Naruto/jab03.gif
+	offset	60 116
+	sound	data/chars/Naruto/ha.wav
+	frame	data/chars/Naruto/jab00.gif
+	attack	63 68 60 47 8 0 0 0 0 0
+	frame	data/chars/Naruto/jab01.gif
+	frame	data/chars/Naruto/jab02.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	frame	data/chars/Naruto/jab03.gif
+	frame	data/chars/Naruto/kick01.gif
+	attack	65 72 44 45 15 0 0 0 15 0
+	frame	data/chars/Naruto/kick02.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	loop	0
+	offset	60 116
+	delay	7
+	frame	data/chars/Naruto/upper00.gif
+	frame	data/chars/Naruto/upper01.gif
+	attack	19 44 86 72 18 1 0 0 0 0
+	dropv	4 0 0
+	frame	data/chars/Naruto/upper02.gif
+	attack	0 0 0 0 0 0 0 0 0 0
+	delay	30
+	frame	data/chars/Naruto/upper03.gif
+	offset	60 116
+	@cmd	leaper 0 4 0
+	delay	15
+	frame	data/chars/Naruto/jump00.gif
+	delay	6
+	offset	60 116
+	frame	data/chars/Naruto/jatk00.gif
+	attack	51 62 60 54 14 1 0 0 0 50
+	dropv	-3 2 0
+	sound	data/chars/Naruto/ha2.wav
+	frame	data/chars/Naruto/jatk01.gif
+	frame	data/chars/Naruto/jatk02.gif
+		
 anim	freespecial4
+	@cmd	isavailable 5
 	loop	0
 	fastattack	1
 	@cmd	pause_all 1 10
@@ -322,31 +377,31 @@ anim	run
 	offset	60 116
 	bbox	43 65 25 51
 	frame	data/chars/Naruto/run00.gif
+	sound	data/sounds/walk.wav
 	frame	data/chars/Naruto/run01.gif
 	frame	data/chars/Naruto/run02.gif
 	frame	data/chars/Naruto/run03.gif
+	sound	data/sounds/walk.wav
 	frame	data/chars/Naruto/run04.gif
 	frame	data/chars/Naruto/run05.gif
 		
 anim	runattack
 	loop	0
-	delay	2
+	delay	5
 	offset	60 116
 	bbox	43 65 25 51
-	move	3
+	@cmd	dasher 3 0 0
 	frame	data/chars/Naruto/kick00.gif
-	frame	data/chars/Naruto/kick00.gif
-	frame	data/chars/Naruto/kick00.gif
-	frame	data/chars/Naruto/kick01.gif
-	frame	data/chars/Naruto/kick01.gif
 	frame	data/chars/Naruto/kick01.gif
 	attack	65 72 44 45 15 1 0 0 15 0
 	dropv	1 4 0
 	frame	data/chars/Naruto/kick02.gif
 	frame	data/chars/Naruto/kick02.gif
+	@cmd	dasher 1 0 0
 	frame	data/chars/Naruto/kick02.gif
 	blast	0
 	delay	7
+	@cmd	stop
 	frame	data/chars/Naruto/kick03.gif
 	delay	30
 	frame	data/chars/Naruto/kick04.gif

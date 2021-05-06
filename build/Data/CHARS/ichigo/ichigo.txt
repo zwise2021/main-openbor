@@ -31,6 +31,7 @@ makeinv 4
 
 
 
+
 anim	attack1
 	loop	0
 	delay	4
@@ -73,7 +74,8 @@ anim	fall
 	frame	data/chars/Ichigo/Fall1.gif
 		
 anim	freespecial
-	energycost	0
+	@cmd	isavailable 2
+	energycost	10
 	mponly	1
 	loop	0
 	offset	58 116
@@ -81,7 +83,6 @@ anim	freespecial
 	@cmd	spawnbind "zoomin" 0 0 0
 	@cmd	changeopenborvariant "slowmotion" 1
 	frame	data/chars/Ichigo/Free1.gif
-	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	@cmd	spawnbind "zoomout" 0 0 0
 	@cmd	changeopenborvariant "slowmotion" 0
 	delay	5
@@ -135,6 +136,49 @@ anim	freespecial11
 	delay	7
 	offset	58 116
 	frame	data/chars/Ichigo/walk1.gif
+		
+anim	freespecial2
+	energycost	0
+	@cmd	isavailable 4
+	mponly	1
+	loop	0
+	offset	58 116
+	delay	30
+	@cmd	spawnbind "zoomin" 0 0 0
+	@cmd	spawnscreen "Screen_wind" 0 0
+	@cmd	changeopenborvariant "slowmotion" 1
+	frame	data/chars/Ichigo/Spec1.gif
+	@cmd	changeentityproperty getlocalvar("self") "mp" 0
+	@cmd	spawnbind "zoomout" 0 0 0
+	@cmd	changeopenborvariant "slowmotion" 0
+	delay	10
+	frame	data/chars/Ichigo/Spec2.gif
+	frame	data/chars/Ichigo/Spec3.gif
+	frame	data/chars/Ichigo/Spec4.gif
+	sound	data/sounds/Att.wav
+	attack	6 40 114 75 15 0 0 0 0 0
+	frame	data/chars/Ichigo/Spec5.gif
+	attack	0 0 0 0 0 0
+	frame	data/chars/Ichigo/Spec5.gif
+	sound	data/sounds/Att.wav
+	attack	6 40 114 75 15 0 0 0 0 0
+	frame	data/chars/Ichigo/Spec6.gif
+	attack	0 0 0 0 0 0
+	frame	data/chars/Ichigo/Spec6.gif
+	sound	data/sounds/Att.wav
+	attack	6 40 114 75 15 0 0 0 0 0
+	frame	data/chars/Ichigo/Spec7.gif
+	attack	0 0 0 0 0 0
+	frame	data/chars/Ichigo/Spec7.gif
+	sound	data/sounds/Att.wav
+	attack	6 40 114 75 50 1 0 0 0 0
+	frame	data/chars/Ichigo/Spec8.gif
+	attack	0 0 0 0 0 0
+	frame	data/chars/Ichigo/Duck1.gif
+	frame	data/chars/Ichigo/Duck1.gif
+	frame	data/chars/Ichigo/Duck1.gif
+	frame	data/chars/Ichigo/Duck1.gif
+	frame	data/chars/Ichigo/Duck1.gif
 		
 anim	get
 	loop	0
@@ -251,48 +295,6 @@ anim	select
 anim	spawn
 	offset	58 116
 	frame	data/chars/Ichigo/Idle1.gif
-		
-anim	freespecial2
-	energycost	0
-	mponly	1
-	loop	0
-	offset	58 116
-	delay	30
-	@cmd	spawnbind "zoomin" 0 0 0
-	@cmd	spawnscreen "Screen_wind" 0 0
-	@cmd	changeopenborvariant "slowmotion" 1
-	frame	data/chars/Ichigo/Spec1.gif
-	@cmd	changeentityproperty getlocalvar("self") "mp" 0
-	@cmd	spawnbind "zoomout" 0 0 0
-	@cmd	changeopenborvariant "slowmotion" 0
-	delay	10
-	frame	data/chars/Ichigo/Spec2.gif
-	frame	data/chars/Ichigo/Spec3.gif
-	frame	data/chars/Ichigo/Spec4.gif
-	sound	data/sounds/Att.wav
-	attack	6 40 114 75 15 0 0 0 0 0
-	frame	data/chars/Ichigo/Spec5.gif
-	attack	0 0 0 0 0 0
-	frame	data/chars/Ichigo/Spec5.gif
-	sound	data/sounds/Att.wav
-	attack	6 40 114 75 15 0 0 0 0 0
-	frame	data/chars/Ichigo/Spec6.gif
-	attack	0 0 0 0 0 0
-	frame	data/chars/Ichigo/Spec6.gif
-	sound	data/sounds/Att.wav
-	attack	6 40 114 75 15 0 0 0 0 0
-	frame	data/chars/Ichigo/Spec7.gif
-	attack	0 0 0 0 0 0
-	frame	data/chars/Ichigo/Spec7.gif
-	sound	data/sounds/Att.wav
-	attack	6 40 114 75 50 1 0 0 0 0
-	frame	data/chars/Ichigo/Spec8.gif
-	attack	0 0 0 0 0 0
-	frame	data/chars/Ichigo/Duck1.gif
-	frame	data/chars/Ichigo/Duck1.gif
-	frame	data/chars/Ichigo/Duck1.gif
-	frame	data/chars/Ichigo/Duck1.gif
-	frame	data/chars/Ichigo/Duck1.gif
 		
 anim	walk
 	loop	1

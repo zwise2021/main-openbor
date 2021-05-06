@@ -5,6 +5,7 @@ speed	10
 type	enemy
 shadow	3
 icon	data/chars/Wolf/icon.gif
+subject_to_screen 1
 
 
 remap	data/chars/Wolf/idle00.gif data/chars/Wolf/map1.gif
