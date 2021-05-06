@@ -1,6 +1,7 @@
 name	Rock_Lee
 health	100
 speed 12
+secret 0 1
 type	player
 shadow	3
 running 18 4 2 1 1

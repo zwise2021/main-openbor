@@ -64,8 +64,6 @@ e4life 0 400
 e4icon 0 400
 e4name 0 400
 
-set Ending
-scene data/scenes/ending.txt
 
 set Stages_1-3
 typemp 1
@@ -90,8 +88,6 @@ file	data/levels/stage3.txt
 next
 scene data/scenes/ending.txt
 
-set Stage_3
-file	data/levels/stage3.txt
 
 
 
