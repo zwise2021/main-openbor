@@ -64,6 +64,7 @@ makeinv  4
 
 
 
+
 anim	attack1
 	sound	data/chars/gon/gon_0-23.wav
 	delay	7
@@ -173,7 +174,6 @@ anim	freespecial1
 	offset	13 37
 	sound	data/chars/gon/gon_0-10.wav
 	frame	data/chars/Gon/157.gif
-	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	@cmd	spawnbind "zoomout" 0 0 0
 	delay	5
 	offset	21 40
@@ -288,7 +288,6 @@ anim	freespecial3
 	offset	13 37
 	sound	data/chars/gon/gon_0-10.wav
 	frame	data/chars/Gon/157.gif
-	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	@cmd	spawnbind "zoomout" 0 0 0
 	delay	5
 	offset	18 43

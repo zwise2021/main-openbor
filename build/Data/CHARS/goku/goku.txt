@@ -36,6 +36,8 @@ weaploss 3
 
 
 
+
+
 anim	attack1
 	shadowcoords	18 77
 	delay	7
@@ -91,6 +93,7 @@ anim	fall
 	frame	data/chars/Goku/fall04.gif
 		
 anim	freespecial
+	@cmd	isavailable 7
 	energycost	0
 	mponly	1
 	loop	0
@@ -98,6 +101,7 @@ anim	freespecial
 	offset	25 77
 	bbox	0 0 0 0
 	delay	10
+	frame	data/chars/Goku/kame00.gif
 	@cmd	spawnbind "zoomin" 0 0 0
 	frame	data/chars/Goku/kame00.gif
 	frame	data/chars/Goku/kame01.gif
@@ -215,6 +219,7 @@ anim	freespecial11
 	frame	data/chars/Goku/walk06.gif
 		
 anim	freespecial2
+	@cmd	isavailable 7
 	energycost	0
 	mponly	1
 	loop	0
@@ -222,6 +227,7 @@ anim	freespecial2
 	offset	25 77
 	bbox	0 0 0 0
 	delay	30
+	frame	data/chars/Goku/spec01.gif
 	@cmd	spawnbind "zoomin" 0 0 0
 	@cmd	changeopenborvariant "slowmotion" 1
 	frame	data/chars/Goku/spec01.gif

@@ -39,6 +39,7 @@ makeinv 4
 
 
 
+
 anim	attack1
 	loop	0
 	delay	7
@@ -112,7 +113,6 @@ anim	freespecial
 	@cmd	spawnscreen "Screen_wind" 0 0
 	@cmd	changeopenborvariant "slowmotion" 1
 	frame	data/chars/Luffy/bazka01.gif
-	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	@cmd	spawnbind "zoomout" 0 0 0
 	@cmd	changeopenborvariant "slowmotion" 0
 	delay	5
@@ -188,7 +188,6 @@ anim	freespecial2
 	@cmd	spawnscreen "Screen_wind" 0 0
 	@cmd	changeopenborvariant "slowmotion" 1
 	frame	data/chars/Luffy/storm01.gif
-	@cmd	changeentityproperty getlocalvar("self") "mp" 0
 	@cmd	spawnbind "zoomout" 0 0 0
 	@cmd	changeopenborvariant "slowmotion" 0
 	delay	7
