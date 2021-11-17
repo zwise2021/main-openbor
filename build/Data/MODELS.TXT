@@ -62,3 +62,9 @@ know	Steamer		data/chars/misc/steamer.txt
 know	Furnace		data/chars/misc/furnace.txt
 know	Crab		data/chars/crab/crab.txt
 know	Lobster		data/chars/Lobster/Lobster.txt
+load kagetsura data/chars/kagetsura/kagetsura.txt
+know kagetsuraE data/chars/kagetsura/kagetsura-e.txt
+know kagetsuraOLD data/chars/kagetsura/kagetsura-old.txt
+know reiji data/chars/reiji/reiji.txt
+know Sinobu_Amou data/chars/Sinobu_Amou/Sinobu_Amou.txt
+know Igniz data/chars/Igniz/Igniz.txt

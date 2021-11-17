@@ -1,0 +1,2093 @@
+name 
+
+
+anim 9000
+ delay 7
+ offset 0 0
+ frame data/chars/reiji/0.gif
+ offset 0 0
+ frame data/chars/reiji/1.gif
+
+anim idle
+ delay 7
+ offset 36 94
+ frame data/chars/reiji/2.gif
+ offset 36 93
+ frame data/chars/reiji/3.gif
+ offset 36 90
+ frame data/chars/reiji/4.gif
+ offset 36 90
+ frame data/chars/reiji/5.gif
+
+anim turn
+ delay 7
+ offset 36 92
+ frame data/chars/reiji/6.gif
+
+anim 0006
+ delay 7
+ offset 23 52
+ frame data/chars/reiji/7.gif
+
+anim 0011
+ delay 7
+ offset 21 53
+ frame data/chars/reiji/8.gif
+
+anim 0012
+ delay 7
+ offset 24 76
+ frame data/chars/reiji/9.gif
+
+anim walk
+ delay 7
+ offset 16 102
+ frame data/chars/reiji/10.gif
+ offset 18 101
+ frame data/chars/reiji/11.gif
+ offset 24 98
+ frame data/chars/reiji/12.gif
+ offset 18 99
+ frame data/chars/reiji/13.gif
+
+anim jump
+ delay 7
+ offset 17 120
+ frame data/chars/reiji/14.gif
+ offset 25 110
+ frame data/chars/reiji/15.gif
+ offset 23 105
+ frame data/chars/reiji/16.gif
+ offset 24 104
+ frame data/chars/reiji/17.gif
+
+anim run
+ delay 7
+ offset 39 91
+ frame data/chars/reiji/18.gif
+ offset 36 98
+ frame data/chars/reiji/19.gif
+ offset 19 93
+ frame data/chars/reiji/20.gif
+ offset 40 95
+ frame data/chars/reiji/21.gif
+
+anim dodge
+ delay 7
+ offset 26 102
+ frame data/chars/reiji/22.gif
+
+anim block120
+ delay 7
+ offset 23 99
+ frame data/chars/reiji/23.gif
+ offset 28 84
+ frame data/chars/reiji/24.gif
+
+anim block121
+ delay 7
+ offset 22 58
+ frame data/chars/reiji/25.gif
+
+anim 0170
+ delay 7
+ offset 20 103
+ frame data/chars/reiji/26.gif
+ offset 18 105
+ frame data/chars/reiji/27.gif
+ offset 19 102
+ frame data/chars/reiji/28.gif
+
+anim 0171
+ delay 7
+ offset 8 41
+ frame data/chars/reiji/29.gif
+ offset 9 43
+ frame data/chars/reiji/30.gif
+ offset 9 31
+ frame data/chars/reiji/31.gif
+ offset 13 38
+ frame data/chars/reiji/32.gif
+ offset 14 39
+ frame data/chars/reiji/33.gif
+ offset 8 44
+ frame data/chars/reiji/34.gif
+ offset 8 43
+ frame data/chars/reiji/35.gif
+ offset 12 41
+ frame data/chars/reiji/36.gif
+ offset 10 41
+ frame data/chars/reiji/37.gif
+ offset 10 43
+ frame data/chars/reiji/38.gif
+ offset 13 40
+ frame data/chars/reiji/39.gif
+
+anim 0180
+ delay 7
+ offset 25 113
+ frame data/chars/reiji/40.gif
+
+anim respawn
+ delay 7
+ offset 25 111
+ frame data/chars/reiji/41.gif
+ offset 22 103
+ frame data/chars/reiji/42.gif
+ offset 36 100
+ frame data/chars/reiji/43.gif
+ offset 30 103
+ frame data/chars/reiji/44.gif
+
+anim 0191
+ delay 7
+ offset 35 122
+ frame data/chars/reiji/45.gif
+ offset 29 117
+ frame data/chars/reiji/46.gif
+
+anim 0192
+ delay 7
+ offset 0 -4
+ frame data/chars/reiji/47.gif
+
+anim select
+ delay 7
+ offset 30 103
+ frame data/chars/reiji/48.gif
+ offset 17 106
+ frame data/chars/reiji/49.gif
+ offset 17 106
+ frame data/chars/reiji/50.gif
+ offset 17 106
+ frame data/chars/reiji/51.gif
+ offset 29 103
+ frame data/chars/reiji/52.gif
+
+anim attack200
+ delay 7
+ offset 36 91
+ frame data/chars/reiji/53.gif
+ offset 36 87
+ frame data/chars/reiji/54.gif
+ offset 36 87
+ frame data/chars/reiji/55.gif
+
+anim attack201
+ delay 7
+ offset 36 91
+ frame data/chars/reiji/56.gif
+ offset 36 91
+ frame data/chars/reiji/57.gif
+
+anim attack202
+ delay 7
+ offset 22 95
+ frame data/chars/reiji/58.gif
+ offset 29 96
+ frame data/chars/reiji/59.gif
+ offset 24 108
+ frame data/chars/reiji/60.gif
+ offset 27 114
+ frame data/chars/reiji/61.gif
+ offset 33 65
+ frame data/chars/reiji/62.gif
+ offset 33 66
+ frame data/chars/reiji/63.gif
+ offset 33 68
+ frame data/chars/reiji/64.gif
+
+anim attack210
+ delay 7
+ offset 34 80
+ frame data/chars/reiji/65.gif
+ offset 35 86
+ frame data/chars/reiji/66.gif
+ offset 35 102
+ frame data/chars/reiji/67.gif
+ offset 35 101
+ frame data/chars/reiji/68.gif
+ offset 34 81
+ frame data/chars/reiji/69.gif
+ offset 34 80
+ frame data/chars/reiji/70.gif
+ offset 34 80
+ frame data/chars/reiji/71.gif
+ offset 34 85
+ frame data/chars/reiji/72.gif
+
+anim attack211
+ delay 7
+ offset 34 118
+ frame data/chars/reiji/73.gif
+ offset 34 116
+ frame data/chars/reiji/74.gif
+
+anim attack230
+ delay 7
+ offset 28 90
+ frame data/chars/reiji/75.gif
+ offset 24 93
+ frame data/chars/reiji/76.gif
+ offset 24 92
+ frame data/chars/reiji/77.gif
+
+anim attack232
+ delay 7
+ offset 26 93
+ frame data/chars/reiji/78.gif
+ offset 22 98
+ frame data/chars/reiji/79.gif
+ offset 30 101
+ frame data/chars/reiji/80.gif
+ offset 41 101
+ frame data/chars/reiji/81.gif
+ offset 36 97
+ frame data/chars/reiji/82.gif
+ offset 18 94
+ frame data/chars/reiji/83.gif
+
+anim attack240
+ delay 7
+ offset 30 106
+ frame data/chars/reiji/84.gif
+ offset 28 108
+ frame data/chars/reiji/85.gif
+ offset 20 107
+ frame data/chars/reiji/86.gif
+ offset 35 100
+ frame data/chars/reiji/87.gif
+ offset 36 106
+ frame data/chars/reiji/88.gif
+
+anim attack241
+ delay 7
+ offset 24 91
+ frame data/chars/reiji/89.gif
+ offset 26 111
+ frame data/chars/reiji/90.gif
+ offset 30 115
+ frame data/chars/reiji/91.gif
+ offset 24 91
+ frame data/chars/reiji/92.gif
+
+anim attack250
+ delay 7
+ offset 18 50
+ frame data/chars/reiji/93.gif
+ offset 27 54
+ frame data/chars/reiji/94.gif
+ offset 38 111
+ frame data/chars/reiji/95.gif
+ offset 26 119
+ frame data/chars/reiji/96.gif
+
+anim attack400
+ delay 7
+ offset 17 54
+ frame data/chars/reiji/97.gif
+ offset 16 53
+ frame data/chars/reiji/98.gif
+
+anim attack410
+ delay 7
+ offset 16 59
+ frame data/chars/reiji/99.gif
+ offset 18 63
+ frame data/chars/reiji/100.gif
+ offset 17 78
+ frame data/chars/reiji/101.gif
+ offset 17 77
+ frame data/chars/reiji/102.gif
+ offset 17 77
+ frame data/chars/reiji/103.gif
+
+anim attack430
+ delay 7
+ offset 24 53
+ frame data/chars/reiji/104.gif
+ offset 24 53
+ frame data/chars/reiji/105.gif
+
+anim attack440
+ delay 7
+ offset 24 71
+ frame data/chars/reiji/106.gif
+ offset 39 66
+ frame data/chars/reiji/107.gif
+ offset 46 40
+ frame data/chars/reiji/108.gif
+ offset 52 38
+ frame data/chars/reiji/109.gif
+ offset 53 36
+ frame data/chars/reiji/110.gif
+ offset 28 51
+ frame data/chars/reiji/111.gif
+ offset 27 58
+ frame data/chars/reiji/112.gif
+
+anim jumpattack600
+ delay 7
+ offset 28 102
+ frame data/chars/reiji/113.gif
+
+anim jumpattack610
+ delay 7
+ offset 25 109
+ frame data/chars/reiji/114.gif
+ offset 32 106
+ frame data/chars/reiji/115.gif
+ offset 27 112
+ frame data/chars/reiji/116.gif
+
+anim jumpattack630
+ delay 7
+ offset 29 104
+ frame data/chars/reiji/117.gif
+
+anim jumpattack640
+ delay 7
+ offset 37 102
+ frame data/chars/reiji/118.gif
+ offset 38 108
+ frame data/chars/reiji/119.gif
+ offset 39 108
+ frame data/chars/reiji/120.gif
+
+anim jumpattack650
+ delay 7
+ offset 30 114
+ frame data/chars/reiji/121.gif
+
+anim 0800
+ delay 7
+ offset 36 85
+ frame data/chars/reiji/122.gif
+ offset 15 81
+ frame data/chars/reiji/123.gif
+ offset 36 84
+ frame data/chars/reiji/124.gif
+ offset 43 82
+ frame data/chars/reiji/125.gif
+ offset 44 85
+ frame data/chars/reiji/126.gif
+ offset 31 92
+ frame data/chars/reiji/127.gif
+ offset 38 87
+ frame data/chars/reiji/128.gif
+ offset 41 68
+ frame data/chars/reiji/129.gif
+
+anim 0850
+ delay 7
+ offset 49 77
+ frame data/chars/reiji/130.gif
+ offset 31 59
+ frame data/chars/reiji/131.gif
+
+anim 0900
+ delay 7
+ offset 28 91
+ frame data/chars/reiji/132.gif
+ offset 31 50
+ frame data/chars/reiji/133.gif
+ offset 42 75
+ frame data/chars/reiji/134.gif
+ offset 37 54
+ frame data/chars/reiji/135.gif
+ offset 57 40
+ frame data/chars/reiji/136.gif
+ offset 26 117
+ frame data/chars/reiji/137.gif
+ offset 39 74
+ frame data/chars/reiji/138.gif
+ offset 14 75
+ frame data/chars/reiji/139.gif
+
+anim freespecial1000
+ delay 7
+ offset 42 86
+ frame data/chars/reiji/140.gif
+ offset 54 67
+ frame data/chars/reiji/141.gif
+ offset 54 70
+ frame data/chars/reiji/142.gif
+ offset 38 77
+ frame data/chars/reiji/143.gif
+ offset 38 81
+ frame data/chars/reiji/144.gif
+ offset 38 79
+ frame data/chars/reiji/145.gif
+
+anim freespecial1020
+ delay 7
+ offset 26 44
+ frame data/chars/reiji/146.gif
+ offset 55 105
+ frame data/chars/reiji/147.gif
+ offset 42 111
+ frame data/chars/reiji/148.gif
+ offset 43 115
+ frame data/chars/reiji/149.gif
+ offset 30 95
+ frame data/chars/reiji/150.gif
+ offset 35 58
+ frame data/chars/reiji/151.gif
+
+anim freespecial1050
+ delay 7
+ offset 35 103
+ frame data/chars/reiji/152.gif
+ offset 35 98
+ frame data/chars/reiji/153.gif
+ offset 23 97
+ frame data/chars/reiji/154.gif
+
+anim freespecial1100
+ delay 7
+ offset 31 98
+ frame data/chars/reiji/155.gif
+ offset 38 91
+ frame data/chars/reiji/156.gif
+ offset 24 55
+ frame data/chars/reiji/157.gif
+ offset 21 53
+ frame data/chars/reiji/158.gif
+
+anim freespecial3000
+ delay 7
+ offset 32 81
+ frame data/chars/reiji/159.gif
+ offset 32 79
+ frame data/chars/reiji/160.gif
+
+anim freespecial3001
+ delay 7
+ offset 36 78
+ frame data/chars/reiji/161.gif
+
+anim pain5000
+ delay 7
+ offset 31 93
+ frame data/chars/reiji/162.gif
+ offset 31 93
+ frame data/chars/reiji/163.gif
+ offset 34 92
+ frame data/chars/reiji/164.gif
+ offset 34 92
+ frame data/chars/reiji/165.gif
+ offset 35 92
+ frame data/chars/reiji/166.gif
+ offset 35 92
+ frame data/chars/reiji/167.gif
+
+anim pain5001
+ delay 7
+ offset 30 39
+ frame data/chars/reiji/168.gif
+ offset 30 39
+ frame data/chars/reiji/169.gif
+ offset 33 38
+ frame data/chars/reiji/170.gif
+
+anim pain5002
+ delay 7
+ offset 22 8
+ frame data/chars/reiji/171.gif
+ offset 23 9
+ frame data/chars/reiji/172.gif
+ offset 21 10
+ frame data/chars/reiji/173.gif
+
+anim pain5010
+ delay 7
+ offset 31 85
+ frame data/chars/reiji/174.gif
+ offset 33 71
+ frame data/chars/reiji/175.gif
+ offset 33 71
+ frame data/chars/reiji/176.gif
+ offset 33 71
+ frame data/chars/reiji/177.gif
+
+anim pain5011
+ delay 7
+ offset 32 36
+ frame data/chars/reiji/178.gif
+ offset 30 29
+ frame data/chars/reiji/179.gif
+ offset 30 29
+ frame data/chars/reiji/180.gif
+
+anim pain5012
+ delay 7
+ offset 42 15
+ frame data/chars/reiji/181.gif
+ offset 47 12
+ frame data/chars/reiji/182.gif
+ offset 47 12
+ frame data/chars/reiji/183.gif
+
+anim pain5020
+ delay 7
+ offset 22 64
+ frame data/chars/reiji/184.gif
+ offset 22 64
+ frame data/chars/reiji/185.gif
+ offset 29 64
+ frame data/chars/reiji/186.gif
+ offset 29 64
+ frame data/chars/reiji/187.gif
+
+anim fall5030
+ delay 7
+ offset 33 71
+ frame data/chars/reiji/188.gif
+ offset 47 91
+ frame data/chars/reiji/189.gif
+ offset 52 89
+ frame data/chars/reiji/190.gif
+ offset 51 77
+ frame data/chars/reiji/191.gif
+ offset 30 106
+ frame data/chars/reiji/192.gif
+ offset 21 95
+ frame data/chars/reiji/193.gif
+
+anim fall5031
+ delay 7
+ offset 30 29
+ frame data/chars/reiji/194.gif
+ offset 39 34
+ frame data/chars/reiji/195.gif
+ offset 46 28
+ frame data/chars/reiji/196.gif
+ offset 41 20
+ frame data/chars/reiji/197.gif
+ offset 29 53
+ frame data/chars/reiji/198.gif
+ offset 31 69
+ frame data/chars/reiji/199.gif
+
+anim fall5032
+ delay 7
+ offset 47 13
+ frame data/chars/reiji/200.gif
+ offset 29 14
+ frame data/chars/reiji/201.gif
+ offset 23 10
+ frame data/chars/reiji/202.gif
+ offset 23 11
+ frame data/chars/reiji/203.gif
+ offset 9 79
+ frame data/chars/reiji/204.gif
+ offset 11 86
+ frame data/chars/reiji/205.gif
+
+anim fall5040
+ delay 7
+ offset 35 43
+ frame data/chars/reiji/206.gif
+ offset 44 24
+ frame data/chars/reiji/207.gif
+ offset 42 45
+ frame data/chars/reiji/208.gif
+
+anim fall5041
+ delay 7
+ offset 31 37
+ frame data/chars/reiji/209.gif
+ offset 43 21
+ frame data/chars/reiji/210.gif
+ offset 40 19
+ frame data/chars/reiji/211.gif
+
+anim fall5042
+ delay 7
+ offset 10 22
+ frame data/chars/reiji/212.gif
+ offset 5 20
+ frame data/chars/reiji/213.gif
+ offset 7 27
+ frame data/chars/reiji/214.gif
+
+anim fall5052
+ delay 7
+ offset 44 101
+ frame data/chars/reiji/215.gif
+ offset 41 101
+ frame data/chars/reiji/216.gif
+
+anim fall5060
+ delay 7
+ offset 30 106
+ frame data/chars/reiji/217.gif
+ offset 30 106
+ frame data/chars/reiji/218.gif
+
+anim fall5061
+ delay 7
+ offset 42 34
+ frame data/chars/reiji/219.gif
+ offset 20 73
+ frame data/chars/reiji/220.gif
+
+anim fall5062
+ delay 7
+ offset 34 8
+ frame data/chars/reiji/221.gif
+ offset 27 100
+ frame data/chars/reiji/222.gif
+
+anim fall5070
+ delay 7
+ offset 59 103
+ frame data/chars/reiji/223.gif
+ offset 60 95
+ frame data/chars/reiji/224.gif
+ offset 45 124
+ frame data/chars/reiji/225.gif
+
+anim fall5071
+ delay 7
+ offset 64 47
+ frame data/chars/reiji/226.gif
+ offset 64 41
+ frame data/chars/reiji/227.gif
+ offset 49 65
+ frame data/chars/reiji/228.gif
+
+anim fall5072
+ delay 7
+ offset 85 22
+ frame data/chars/reiji/229.gif
+ offset 98 32
+ frame data/chars/reiji/230.gif
+ offset 71 85
+ frame data/chars/reiji/231.gif
+
+anim fall5101
+ delay 7
+ offset 31 98
+ frame data/chars/reiji/232.gif
+ offset 56 79
+ frame data/chars/reiji/233.gif
+ offset 67 94
+ frame data/chars/reiji/234.gif
+
+anim fall5111
+ delay 7
+ offset 62 12
+ frame data/chars/reiji/235.gif
+
+anim 5121
+ delay 7
+ offset 38 33
+ frame data/chars/reiji/236.gif
+ offset 44 85
+ frame data/chars/reiji/237.gif
+ offset 57 78
+ frame data/chars/reiji/238.gif
+ offset 46 33
+ frame data/chars/reiji/239.gif
+
+anim 5161
+ delay 7
+ offset 31 97
+ frame data/chars/reiji/240.gif
+ offset 64 79
+ frame data/chars/reiji/241.gif
+ offset 62 78
+ frame data/chars/reiji/242.gif
+
+anim faint
+ delay 7
+ offset 26 94
+ frame data/chars/reiji/243.gif
+ offset 25 94
+ frame data/chars/reiji/244.gif
+ offset 24 95
+ frame data/chars/reiji/245.gif
+
+anim 5900
+ delay 7
+ offset 20 101
+ frame data/chars/reiji/246.gif
+ offset 22 93
+ frame data/chars/reiji/247.gif
+
+anim freespecial3105
+ delay 7
+ offset 50 56
+ frame data/chars/reiji/248.gif
+ offset 61 65
+ frame data/chars/reiji/249.gif
+ offset 55 60
+ frame data/chars/reiji/250.gif
+ offset 62 63
+ frame data/chars/reiji/251.gif
+
+anim freespecial3106
+ delay 7
+ offset 59 50
+ frame data/chars/reiji/252.gif
+ offset 57 87
+ frame data/chars/reiji/253.gif
+ offset 79 105
+ frame data/chars/reiji/254.gif
+ offset 81 107
+ frame data/chars/reiji/255.gif
+ offset 82 108
+ frame data/chars/reiji/256.gif
+ offset 83 108
+ frame data/chars/reiji/257.gif
+ offset 85 108
+ frame data/chars/reiji/258.gif
+ offset 83 108
+ frame data/chars/reiji/259.gif
+
+anim freespecial3205
+ delay 7
+ offset 0 0
+ frame data/chars/reiji/260.gif
+ offset 1 3
+ frame data/chars/reiji/261.gif
+ offset 2 -8
+ frame data/chars/reiji/262.gif
+
+anim jumpattack751
+ delay 7
+ offset 48 93
+ frame data/chars/reiji/263.gif
+ offset 52 95
+ frame data/chars/reiji/264.gif
+ offset 55 96
+ frame data/chars/reiji/265.gif
+ offset 60 97
+ frame data/chars/reiji/266.gif
+ offset 66 99
+ frame data/chars/reiji/267.gif
+ offset 70 100
+ frame data/chars/reiji/268.gif
+ offset 72 100
+ frame data/chars/reiji/269.gif
+ offset 73 99
+ frame data/chars/reiji/270.gif
+
+anim jumpattack761
+ delay 7
+ offset 49 101
+ frame data/chars/reiji/271.gif
+ offset 49 101
+ frame data/chars/reiji/272.gif
+ offset 49 101
+ frame data/chars/reiji/273.gif
+ offset 49 98
+ frame data/chars/reiji/274.gif
+ offset 46 101
+ frame data/chars/reiji/275.gif
+ offset 49 101
+ frame data/chars/reiji/276.gif
+
+anim 6000
+ delay 7
+ offset 9 8
+ frame data/chars/reiji/277.gif
+ offset 11 14
+ frame data/chars/reiji/278.gif
+ offset 11 14
+ frame data/chars/reiji/279.gif
+ offset 14 15
+ frame data/chars/reiji/280.gif
+ offset 14 15
+ frame data/chars/reiji/281.gif
+ offset 16 16
+ frame data/chars/reiji/282.gif
+ offset 16 16
+ frame data/chars/reiji/283.gif
+ offset 15 16
+ frame data/chars/reiji/284.gif
+ offset 15 16
+ frame data/chars/reiji/285.gif
+
+anim 6001
+ delay 7
+ offset 12 15
+ frame data/chars/reiji/286.gif
+ offset 18 22
+ frame data/chars/reiji/287.gif
+ offset 18 22
+ frame data/chars/reiji/288.gif
+ offset 20 23
+ frame data/chars/reiji/289.gif
+ offset 20 23
+ frame data/chars/reiji/290.gif
+ offset 24 24
+ frame data/chars/reiji/291.gif
+ offset 24 24
+ frame data/chars/reiji/292.gif
+ offset 23 24
+ frame data/chars/reiji/293.gif
+ offset 23 24
+ frame data/chars/reiji/294.gif
+
+anim 6002
+ delay 7
+ offset 16 17
+ frame data/chars/reiji/295.gif
+ offset 22 23
+ frame data/chars/reiji/296.gif
+ offset 24 26
+ frame data/chars/reiji/297.gif
+ offset 26 27
+ frame data/chars/reiji/298.gif
+ offset 26 28
+ frame data/chars/reiji/299.gif
+ offset 27 27
+ frame data/chars/reiji/300.gif
+ offset 27 27
+ frame data/chars/reiji/301.gif
+ offset 26 26
+ frame data/chars/reiji/302.gif
+
+anim 6003
+ delay 7
+ offset 8 9
+ frame data/chars/reiji/303.gif
+ offset 14 15
+ frame data/chars/reiji/304.gif
+ offset 14 15
+ frame data/chars/reiji/305.gif
+ offset 14 16
+ frame data/chars/reiji/306.gif
+ offset 14 14
+ frame data/chars/reiji/307.gif
+ offset 15 14
+ frame data/chars/reiji/308.gif
+ offset 16 12
+ frame data/chars/reiji/309.gif
+ offset 14 11
+ frame data/chars/reiji/310.gif
+ offset 12 11
+ frame data/chars/reiji/311.gif
+ offset 4 6
+ frame data/chars/reiji/312.gif
+
+anim 6004
+ delay 7
+ offset 11 14
+ frame data/chars/reiji/313.gif
+ offset 23 23
+ frame data/chars/reiji/314.gif
+ offset 23 23
+ frame data/chars/reiji/315.gif
+ offset 24 24
+ frame data/chars/reiji/316.gif
+ offset 22 23
+ frame data/chars/reiji/317.gif
+ offset 22 22
+ frame data/chars/reiji/318.gif
+ offset 24 19
+ frame data/chars/reiji/319.gif
+ offset 21 17
+ frame data/chars/reiji/320.gif
+ offset 19 17
+ frame data/chars/reiji/321.gif
+ offset 7 10
+ frame data/chars/reiji/322.gif
+
+anim 6005
+ delay 7
+ offset 16 19
+ frame data/chars/reiji/323.gif
+ offset 31 31
+ frame data/chars/reiji/324.gif
+ offset 31 31
+ frame data/chars/reiji/325.gif
+ offset 32 32
+ frame data/chars/reiji/326.gif
+ offset 30 31
+ frame data/chars/reiji/327.gif
+ offset 30 29
+ frame data/chars/reiji/328.gif
+ offset 32 25
+ frame data/chars/reiji/329.gif
+ offset 29 25
+ frame data/chars/reiji/330.gif
+ offset 29 23
+ frame data/chars/reiji/331.gif
+ offset 10 15
+ frame data/chars/reiji/332.gif
+
+anim 6006
+ delay 7
+ offset 21 29
+ frame data/chars/reiji/333.gif
+ offset 39 39
+ frame data/chars/reiji/334.gif
+ offset 43 40
+ frame data/chars/reiji/335.gif
+ offset 47 41
+ frame data/chars/reiji/336.gif
+ offset 47 41
+ frame data/chars/reiji/337.gif
+ offset 47 41
+ frame data/chars/reiji/338.gif
+ offset 47 41
+ frame data/chars/reiji/339.gif
+ offset 47 41
+ frame data/chars/reiji/340.gif
+ offset 47 41
+ frame data/chars/reiji/341.gif
+ offset 47 43
+ frame data/chars/reiji/342.gif
+ offset 47 43
+ frame data/chars/reiji/343.gif
+ offset 47 43
+ frame data/chars/reiji/344.gif
+ offset 47 43
+ frame data/chars/reiji/345.gif
+ offset 12 17
+ frame data/chars/reiji/346.gif
+
+anim 6007
+ delay 7
+ offset 24 23
+ frame data/chars/reiji/347.gif
+ offset 47 50
+ frame data/chars/reiji/348.gif
+ offset 48 50
+ frame data/chars/reiji/349.gif
+ offset 48 52
+ frame data/chars/reiji/350.gif
+ offset 48 52
+ frame data/chars/reiji/351.gif
+ offset 48 57
+ frame data/chars/reiji/352.gif
+ offset 48 57
+ frame data/chars/reiji/353.gif
+ offset 48 57
+ frame data/chars/reiji/354.gif
+ offset 48 57
+ frame data/chars/reiji/355.gif
+ offset 43 58
+ frame data/chars/reiji/356.gif
+ offset 43 58
+ frame data/chars/reiji/357.gif
+ offset 43 58
+ frame data/chars/reiji/358.gif
+ offset 43 58
+ frame data/chars/reiji/359.gif
+ offset 44 58
+ frame data/chars/reiji/360.gif
+ offset 43 58
+ frame data/chars/reiji/361.gif
+
+anim 6008
+ delay 7
+ offset 25 51
+ frame data/chars/reiji/362.gif
+ offset 25 51
+ frame data/chars/reiji/363.gif
+ offset 17 62
+ frame data/chars/reiji/364.gif
+ offset 13 66
+ frame data/chars/reiji/365.gif
+ offset 9 67
+ frame data/chars/reiji/366.gif
+ offset 9 69
+ frame data/chars/reiji/367.gif
+ offset 9 69
+ frame data/chars/reiji/368.gif
+ offset 9 69
+ frame data/chars/reiji/369.gif
+ offset 9 69
+ frame data/chars/reiji/370.gif
+ offset 8 60
+ frame data/chars/reiji/371.gif
+
+anim 6010
+ delay 7
+ offset 13 11
+ frame data/chars/reiji/372.gif
+ offset 13 11
+ frame data/chars/reiji/373.gif
+ offset 8 6
+ frame data/chars/reiji/374.gif
+ offset 9 7
+ frame data/chars/reiji/375.gif
+ offset 10 8
+ frame data/chars/reiji/376.gif
+ offset 11 9
+ frame data/chars/reiji/377.gif
+ offset 13 11
+ frame data/chars/reiji/378.gif
+
+anim 6011
+ delay 7
+ offset 17 15
+ frame data/chars/reiji/379.gif
+ offset 17 15
+ frame data/chars/reiji/380.gif
+ offset 10 8
+ frame data/chars/reiji/381.gif
+ offset 12 10
+ frame data/chars/reiji/382.gif
+ offset 13 11
+ frame data/chars/reiji/383.gif
+ offset 15 13
+ frame data/chars/reiji/384.gif
+ offset 17 15
+ frame data/chars/reiji/385.gif
+
+anim 6012
+ delay 7
+ offset 14 17
+ frame data/chars/reiji/386.gif
+ offset 14 17
+ frame data/chars/reiji/387.gif
+ offset 13 16
+ frame data/chars/reiji/388.gif
+ offset 14 17
+ frame data/chars/reiji/389.gif
+ offset 14 18
+ frame data/chars/reiji/390.gif
+ offset 15 19
+ frame data/chars/reiji/391.gif
+ offset 15 20
+ frame data/chars/reiji/392.gif
+ offset 16 21
+ frame data/chars/reiji/393.gif
+
+anim 6020
+ delay 7
+ offset 17 22
+ frame data/chars/reiji/394.gif
+ offset 30 30
+ frame data/chars/reiji/395.gif
+ offset 30 30
+ frame data/chars/reiji/396.gif
+ offset 31 31
+ frame data/chars/reiji/397.gif
+ offset 31 32
+ frame data/chars/reiji/398.gif
+ offset 32 32
+ frame data/chars/reiji/399.gif
+ offset 32 32
+ frame data/chars/reiji/400.gif
+ offset 32 32
+ frame data/chars/reiji/401.gif
+
+anim 6021
+ delay 7
+ offset 17 22
+ frame data/chars/reiji/402.gif
+ offset 30 30
+ frame data/chars/reiji/403.gif
+ offset 30 30
+ frame data/chars/reiji/404.gif
+ offset 31 31
+ frame data/chars/reiji/405.gif
+ offset 31 32
+ frame data/chars/reiji/406.gif
+ offset 32 32
+ frame data/chars/reiji/407.gif
+ offset 32 32
+ frame data/chars/reiji/408.gif
+ offset 32 32
+ frame data/chars/reiji/409.gif
+
+anim 6040
+ delay 7
+ offset 32 4
+ frame data/chars/reiji/410.gif
+ offset 32 4
+ frame data/chars/reiji/411.gif
+ offset 32 4
+ frame data/chars/reiji/412.gif
+ offset 50 5
+ frame data/chars/reiji/413.gif
+ offset 56 7
+ frame data/chars/reiji/414.gif
+ offset 64 8
+ frame data/chars/reiji/415.gif
+ offset 64 8
+ frame data/chars/reiji/416.gif
+ offset 64 8
+ frame data/chars/reiji/417.gif
+
+anim 6045
+ delay 7
+ offset 24 5
+ frame data/chars/reiji/418.gif
+ offset 32 7
+ frame data/chars/reiji/419.gif
+ offset 32 7
+ frame data/chars/reiji/420.gif
+ offset 51 16
+ frame data/chars/reiji/421.gif
+ offset 61 24
+ frame data/chars/reiji/422.gif
+ offset 64 25
+ frame data/chars/reiji/423.gif
+ offset 61 23
+ frame data/chars/reiji/424.gif
+ offset 58 20
+ frame data/chars/reiji/425.gif
+ offset 54 16
+ frame data/chars/reiji/426.gif
+ offset 50 12
+ frame data/chars/reiji/427.gif
+ offset 49 11
+ frame data/chars/reiji/428.gif
+
+anim 6046
+ delay 7
+ offset 46 7
+ frame data/chars/reiji/429.gif
+ offset 59 15
+ frame data/chars/reiji/430.gif
+ offset 59 11
+ frame data/chars/reiji/431.gif
+ offset 55 10
+ frame data/chars/reiji/432.gif
+ offset 50 6
+ frame data/chars/reiji/433.gif
+ offset 48 3
+ frame data/chars/reiji/434.gif
+ offset 47 -1
+ frame data/chars/reiji/435.gif
+ offset 49 -2
+ frame data/chars/reiji/436.gif
+
+anim 6053
+ delay 7
+ offset 26 47
+ frame data/chars/reiji/437.gif
+ offset 43 60
+ frame data/chars/reiji/438.gif
+ offset 58 72
+ frame data/chars/reiji/439.gif
+ offset 72 90
+ frame data/chars/reiji/440.gif
+ offset 70 89
+ frame data/chars/reiji/441.gif
+ offset 72 105
+ frame data/chars/reiji/442.gif
+ offset 76 105
+ frame data/chars/reiji/443.gif
+ offset 79 104
+ frame data/chars/reiji/444.gif
+ offset 79 104
+ frame data/chars/reiji/445.gif
+ offset 72 105
+ frame data/chars/reiji/446.gif
+ offset 71 107
+ frame data/chars/reiji/447.gif
+ offset 70 107
+ frame data/chars/reiji/448.gif
+ offset 70 104
+ frame data/chars/reiji/449.gif
+ offset 67 105
+ frame data/chars/reiji/450.gif
+ offset 66 103
+ frame data/chars/reiji/451.gif
+ offset 66 107
+ frame data/chars/reiji/452.gif
+ offset 64 108
+ frame data/chars/reiji/453.gif
+ offset 64 110
+ frame data/chars/reiji/454.gif
+ offset 64 111
+ frame data/chars/reiji/455.gif
+
+anim 6100
+ delay 7
+ offset 7 6
+ frame data/chars/reiji/456.gif
+ offset 7 6
+ frame data/chars/reiji/457.gif
+ offset 10 9
+ frame data/chars/reiji/458.gif
+ offset 11 10
+ frame data/chars/reiji/459.gif
+ offset 11 11
+ frame data/chars/reiji/460.gif
+ offset 11 11
+ frame data/chars/reiji/461.gif
+ offset 9 11
+ frame data/chars/reiji/462.gif
+ offset 1 11
+ frame data/chars/reiji/463.gif
+
+anim 6101
+ delay 7
+ offset 8 6
+ frame data/chars/reiji/464.gif
+ offset 9 8
+ frame data/chars/reiji/465.gif
+ offset 11 10
+ frame data/chars/reiji/466.gif
+ offset 14 13
+ frame data/chars/reiji/467.gif
+ offset 14 12
+ frame data/chars/reiji/468.gif
+ offset 14 12
+ frame data/chars/reiji/469.gif
+ offset 13 12
+ frame data/chars/reiji/470.gif
+ offset 13 12
+ frame data/chars/reiji/471.gif
+ offset 14 12
+ frame data/chars/reiji/472.gif
+ offset 14 15
+ frame data/chars/reiji/473.gif
+ offset 13 15
+ frame data/chars/reiji/474.gif
+ offset 14 15
+ frame data/chars/reiji/475.gif
+ offset 14 14
+ frame data/chars/reiji/476.gif
+ offset 14 14
+ frame data/chars/reiji/477.gif
+ offset 14 12
+ frame data/chars/reiji/478.gif
+ offset 14 12
+ frame data/chars/reiji/479.gif
+
+anim 6100
+ delay 7
+ offset 7 6
+ frame data/chars/reiji/480.gif
+ offset 7 6
+ frame data/chars/reiji/481.gif
+ offset 10 9
+ frame data/chars/reiji/482.gif
+ offset 11 10
+ frame data/chars/reiji/483.gif
+ offset 11 11
+ frame data/chars/reiji/484.gif
+ offset 11 11
+ frame data/chars/reiji/485.gif
+ offset 9 11
+ frame data/chars/reiji/486.gif
+ offset 1 11
+ frame data/chars/reiji/487.gif
+
+anim 6101
+ delay 7
+ offset 8 6
+ frame data/chars/reiji/488.gif
+ offset 9 8
+ frame data/chars/reiji/489.gif
+ offset 11 10
+ frame data/chars/reiji/490.gif
+ offset 14 13
+ frame data/chars/reiji/491.gif
+ offset 14 12
+ frame data/chars/reiji/492.gif
+ offset 14 12
+ frame data/chars/reiji/493.gif
+ offset 13 12
+ frame data/chars/reiji/494.gif
+ offset 13 12
+ frame data/chars/reiji/495.gif
+ offset 14 12
+ frame data/chars/reiji/496.gif
+ offset 14 15
+ frame data/chars/reiji/497.gif
+ offset 13 15
+ frame data/chars/reiji/498.gif
+ offset 14 15
+ frame data/chars/reiji/499.gif
+ offset 14 14
+ frame data/chars/reiji/500.gif
+ offset 14 14
+ frame data/chars/reiji/501.gif
+ offset 14 12
+ frame data/chars/reiji/502.gif
+ offset 14 12
+ frame data/chars/reiji/503.gif
+
+anim 6102
+ delay 7
+ offset 11 14
+ frame data/chars/reiji/504.gif
+ offset 10 6
+ frame data/chars/reiji/505.gif
+ offset 11 9
+ frame data/chars/reiji/506.gif
+ offset 12 10
+ frame data/chars/reiji/507.gif
+ offset 13 14
+ frame data/chars/reiji/508.gif
+ offset 14 14
+ frame data/chars/reiji/509.gif
+ offset 13 14
+ frame data/chars/reiji/510.gif
+ offset 13 15
+ frame data/chars/reiji/511.gif
+ offset 11 13
+ frame data/chars/reiji/512.gif
+ offset 10 12
+ frame data/chars/reiji/513.gif
+ offset 9 12
+ frame data/chars/reiji/514.gif
+
+anim 6103
+ delay 7
+ offset 8 13
+ frame data/chars/reiji/515.gif
+ offset 18 12
+ frame data/chars/reiji/516.gif
+ offset 22 16
+ frame data/chars/reiji/517.gif
+ offset 23 19
+ frame data/chars/reiji/518.gif
+ offset 24 21
+ frame data/chars/reiji/519.gif
+ offset 24 22
+ frame data/chars/reiji/520.gif
+ offset 24 23
+ frame data/chars/reiji/521.gif
+ offset 24 23
+ frame data/chars/reiji/522.gif
+ offset 24 23
+ frame data/chars/reiji/523.gif
+ offset 23 23
+ frame data/chars/reiji/524.gif
+ offset 21 23
+ frame data/chars/reiji/525.gif
+ offset 21 22
+ frame data/chars/reiji/526.gif
+ offset 21 22
+ frame data/chars/reiji/527.gif
+ offset 20 21
+ frame data/chars/reiji/528.gif
+ offset 14 19
+ frame data/chars/reiji/529.gif
+
+anim 6104
+ delay 7
+ offset 16 20
+ frame data/chars/reiji/530.gif
+ offset 9 8
+ frame data/chars/reiji/531.gif
+ offset 16 50
+ frame data/chars/reiji/532.gif
+ offset 20 38
+ frame data/chars/reiji/533.gif
+ offset 21 45
+ frame data/chars/reiji/534.gif
+ offset 22 49
+ frame data/chars/reiji/535.gif
+ offset 22 52
+ frame data/chars/reiji/536.gif
+ offset 22 54
+ frame data/chars/reiji/537.gif
+ offset 22 55
+ frame data/chars/reiji/538.gif
+ offset 22 56
+ frame data/chars/reiji/539.gif
+ offset 21 56
+ frame data/chars/reiji/540.gif
+ offset 19 56
+ frame data/chars/reiji/541.gif
+ offset 19 56
+ frame data/chars/reiji/542.gif
+ offset 19 56
+ frame data/chars/reiji/543.gif
+ offset 18 55
+ frame data/chars/reiji/544.gif
+ offset 12 55
+ frame data/chars/reiji/545.gif
+ offset 6 54
+ frame data/chars/reiji/546.gif
+ offset 6 52
+ frame data/chars/reiji/547.gif
+ offset -1 41
+ frame data/chars/reiji/548.gif
+
+anim 6105
+ delay 7
+ offset 43 95
+ frame data/chars/reiji/549.gif
+ offset 9 60
+ frame data/chars/reiji/550.gif
+ offset 69 114
+ frame data/chars/reiji/551.gif
+ offset 51 159
+ frame data/chars/reiji/552.gif
+ offset 46 124
+ frame data/chars/reiji/553.gif
+ offset 55 129
+ frame data/chars/reiji/554.gif
+ offset 69 135
+ frame data/chars/reiji/555.gif
+ offset 73 149
+ frame data/chars/reiji/556.gif
+ offset 73 154
+ frame data/chars/reiji/557.gif
+ offset 73 154
+ frame data/chars/reiji/558.gif
+ offset 73 154
+ frame data/chars/reiji/559.gif
+ offset 74 154
+ frame data/chars/reiji/560.gif
+ offset 73 157
+ frame data/chars/reiji/561.gif
+ offset 71 164
+ frame data/chars/reiji/562.gif
+ offset 70 167
+ frame data/chars/reiji/563.gif
+ offset 68 169
+ frame data/chars/reiji/564.gif
+ offset 65 171
+ frame data/chars/reiji/565.gif
+ offset 64 172
+ frame data/chars/reiji/566.gif
+ offset 63 174
+ frame data/chars/reiji/567.gif
+ offset 62 173
+ frame data/chars/reiji/568.gif
+ offset 61 171
+ frame data/chars/reiji/569.gif
+ offset 59 168
+ frame data/chars/reiji/570.gif
+ offset 59 165
+ frame data/chars/reiji/571.gif
+ offset 53 164
+ frame data/chars/reiji/572.gif
+ offset 31 161
+ frame data/chars/reiji/573.gif
+
+anim 6200
+ delay 7
+ offset 28 28
+ frame data/chars/reiji/574.gif
+ offset 50 50
+ frame data/chars/reiji/575.gif
+ offset 72 70
+ frame data/chars/reiji/576.gif
+ offset 78 76
+ frame data/chars/reiji/577.gif
+ offset 79 77
+ frame data/chars/reiji/578.gif
+ offset 82 82
+ frame data/chars/reiji/579.gif
+ offset 83 82
+ frame data/chars/reiji/580.gif
+ offset 81 79
+ frame data/chars/reiji/581.gif
+ offset 82 76
+ frame data/chars/reiji/582.gif
+ offset 82 77
+ frame data/chars/reiji/583.gif
+ offset 84 76
+ frame data/chars/reiji/584.gif
+ offset 84 76
+ frame data/chars/reiji/585.gif
+ offset 83 75
+ frame data/chars/reiji/586.gif
+
+anim 6201
+ delay 7
+ offset 11 53
+ frame data/chars/reiji/587.gif
+ offset 22 61
+ frame data/chars/reiji/588.gif
+ offset 49 78
+ frame data/chars/reiji/589.gif
+ offset 49 88
+ frame data/chars/reiji/590.gif
+ offset 49 92
+ frame data/chars/reiji/591.gif
+ offset 49 91
+ frame data/chars/reiji/592.gif
+ offset 47 92
+ frame data/chars/reiji/593.gif
+ offset 45 93
+ frame data/chars/reiji/594.gif
+ offset 45 93
+ frame data/chars/reiji/595.gif
+ offset 44 93
+ frame data/chars/reiji/596.gif
+ offset 17 93
+ frame data/chars/reiji/597.gif
+ offset 17 92
+ frame data/chars/reiji/598.gif
+ offset 16 92
+ frame data/chars/reiji/599.gif
+ offset 16 91
+ frame data/chars/reiji/600.gif
+ offset 15 89
+ frame data/chars/reiji/601.gif
+ offset 15 84
+ frame data/chars/reiji/602.gif
+ offset 13 83
+ frame data/chars/reiji/603.gif
+
+anim 6202
+ delay 7
+ offset 12 68
+ frame data/chars/reiji/604.gif
+ offset 53 101
+ frame data/chars/reiji/605.gif
+ offset 54 116
+ frame data/chars/reiji/606.gif
+ offset 54 122
+ frame data/chars/reiji/607.gif
+ offset 54 123
+ frame data/chars/reiji/608.gif
+ offset 52 127
+ frame data/chars/reiji/609.gif
+ offset 51 130
+ frame data/chars/reiji/610.gif
+ offset 50 132
+ frame data/chars/reiji/611.gif
+ offset 49 133
+ frame data/chars/reiji/612.gif
+ offset 21 134
+ frame data/chars/reiji/613.gif
+ offset 21 136
+ frame data/chars/reiji/614.gif
+ offset 19 139
+ frame data/chars/reiji/615.gif
+ offset 20 140
+ frame data/chars/reiji/616.gif
+ offset 19 141
+ frame data/chars/reiji/617.gif
+ offset 19 145
+ frame data/chars/reiji/618.gif
+ offset 17 143
+ frame data/chars/reiji/619.gif
+ offset 17 144
+ frame data/chars/reiji/620.gif
+ offset 6 144
+ frame data/chars/reiji/621.gif
+ offset 6 142
+ frame data/chars/reiji/622.gif
+
+anim 6203
+ delay 7
+ offset 79 196
+ frame data/chars/reiji/623.gif
+ offset 79 196
+ frame data/chars/reiji/624.gif
+ offset 79 196
+ frame data/chars/reiji/625.gif
+ offset 79 196
+ frame data/chars/reiji/626.gif
+ offset 79 196
+ frame data/chars/reiji/627.gif
+ offset 79 196
+ frame data/chars/reiji/628.gif
+ offset 79 196
+ frame data/chars/reiji/629.gif
+ offset 79 196
+ frame data/chars/reiji/630.gif
+ offset 79 196
+ frame data/chars/reiji/631.gif
+ offset 79 196
+ frame data/chars/reiji/632.gif
+ offset 79 196
+ frame data/chars/reiji/633.gif
+ offset 79 196
+ frame data/chars/reiji/634.gif
+
+anim 6500
+ delay 7
+ offset 35 4
+ frame data/chars/reiji/635.gif
+ offset 35 4
+ frame data/chars/reiji/636.gif
+ offset 35 4
+ frame data/chars/reiji/637.gif
+
+anim 7000
+ delay 7
+ offset 55 29
+ frame data/chars/reiji/638.gif
+ offset 149 69
+ frame data/chars/reiji/639.gif
+ offset 245 89
+ frame data/chars/reiji/640.gif
+ offset 242 95
+ frame data/chars/reiji/641.gif
+ offset 242 94
+ frame data/chars/reiji/642.gif
+ offset 226 94
+ frame data/chars/reiji/643.gif
+ offset 98 89
+ frame data/chars/reiji/644.gif
+
+anim 7001
+ delay 7
+ offset 64 91
+ frame data/chars/reiji/645.gif
+ offset 75 86
+ frame data/chars/reiji/646.gif
+ offset 39 34
+ frame data/chars/reiji/647.gif
+ offset 39 85
+ frame data/chars/reiji/648.gif
+ offset 107 109
+ frame data/chars/reiji/649.gif
+ offset 96 99
+ frame data/chars/reiji/650.gif
+ offset 107 100
+ frame data/chars/reiji/651.gif
+ offset 98 93
+ frame data/chars/reiji/652.gif
+
+anim 7010
+ delay 7
+ offset 55 29
+ frame data/chars/reiji/653.gif
+ offset 149 69
+ frame data/chars/reiji/654.gif
+ offset 245 89
+ frame data/chars/reiji/655.gif
+ offset 242 95
+ frame data/chars/reiji/656.gif
+ offset 242 94
+ frame data/chars/reiji/657.gif
+ offset 226 94
+ frame data/chars/reiji/658.gif
+ offset 98 89
+ frame data/chars/reiji/659.gif
+
+anim 7011
+ delay 7
+ offset 64 91
+ frame data/chars/reiji/660.gif
+ offset 75 86
+ frame data/chars/reiji/661.gif
+ offset 39 34
+ frame data/chars/reiji/662.gif
+ offset 39 85
+ frame data/chars/reiji/663.gif
+ offset 107 109
+ frame data/chars/reiji/664.gif
+ offset 96 99
+ frame data/chars/reiji/665.gif
+ offset 107 100
+ frame data/chars/reiji/666.gif
+ offset 98 93
+ frame data/chars/reiji/667.gif
+
+anim 7020
+ delay 7
+ offset 55 29
+ frame data/chars/reiji/668.gif
+ offset 149 69
+ frame data/chars/reiji/669.gif
+ offset 245 89
+ frame data/chars/reiji/670.gif
+ offset 242 95
+ frame data/chars/reiji/671.gif
+ offset 242 94
+ frame data/chars/reiji/672.gif
+ offset 226 94
+ frame data/chars/reiji/673.gif
+ offset 98 89
+ frame data/chars/reiji/674.gif
+
+anim 7021
+ delay 7
+ offset 64 91
+ frame data/chars/reiji/675.gif
+ offset 75 86
+ frame data/chars/reiji/676.gif
+ offset 39 34
+ frame data/chars/reiji/677.gif
+ offset 39 85
+ frame data/chars/reiji/678.gif
+ offset 107 109
+ frame data/chars/reiji/679.gif
+ offset 96 99
+ frame data/chars/reiji/680.gif
+ offset 107 100
+ frame data/chars/reiji/681.gif
+ offset 98 93
+ frame data/chars/reiji/682.gif
+
+anim 7011
+ delay 7
+ offset 47 48
+ frame data/chars/reiji/683.gif
+ offset 70 62
+ frame data/chars/reiji/684.gif
+ offset 74 67
+ frame data/chars/reiji/685.gif
+ offset 76 70
+ frame data/chars/reiji/686.gif
+ offset 76 73
+ frame data/chars/reiji/687.gif
+ offset 80 75
+ frame data/chars/reiji/688.gif
+ offset 71 76
+ frame data/chars/reiji/689.gif
+ offset 67 76
+ frame data/chars/reiji/690.gif
+
+anim 7040
+ delay 7
+ offset 45 29
+ frame data/chars/reiji/691.gif
+ offset 64 37
+ frame data/chars/reiji/692.gif
+ offset 103 63
+ frame data/chars/reiji/693.gif
+ offset 112 64
+ frame data/chars/reiji/694.gif
+ offset 127 60
+ frame data/chars/reiji/695.gif
+ offset 139 63
+ frame data/chars/reiji/696.gif
+ offset 143 70
+ frame data/chars/reiji/697.gif
+ offset 144 65
+ frame data/chars/reiji/698.gif
+ offset 144 66
+ frame data/chars/reiji/699.gif
+ offset 144 69
+ frame data/chars/reiji/700.gif
+ offset 144 70
+ frame data/chars/reiji/701.gif
+ offset 144 44
+ frame data/chars/reiji/702.gif
+ offset 144 45
+ frame data/chars/reiji/703.gif
+ offset 144 46
+ frame data/chars/reiji/704.gif
+ offset 144 21
+ frame data/chars/reiji/705.gif
+ offset 139 15
+ frame data/chars/reiji/706.gif
+ offset 109 8
+ frame data/chars/reiji/707.gif
+ offset 93 7
+ frame data/chars/reiji/708.gif
+
+anim 7041
+ delay 7
+ offset 7 11
+ frame data/chars/reiji/709.gif
+ offset 10 14
+ frame data/chars/reiji/710.gif
+ offset 21 36
+ frame data/chars/reiji/711.gif
+ offset 39 64
+ frame data/chars/reiji/712.gif
+ offset 48 78
+ frame data/chars/reiji/713.gif
+ offset 56 90
+ frame data/chars/reiji/714.gif
+ offset 61 82
+ frame data/chars/reiji/715.gif
+ offset 59 75
+ frame data/chars/reiji/716.gif
+ offset 43 71
+ frame data/chars/reiji/717.gif
+ offset 43 56
+ frame data/chars/reiji/718.gif
+ offset 43 55
+ frame data/chars/reiji/719.gif
+ offset 43 50
+ frame data/chars/reiji/720.gif
+ offset 39 41
+ frame data/chars/reiji/721.gif
+ offset 39 43
+ frame data/chars/reiji/722.gif
+ offset 32 46
+ frame data/chars/reiji/723.gif
+ offset 28 49
+ frame data/chars/reiji/724.gif
+ offset 5 6
+ frame data/chars/reiji/725.gif
+ offset 4 5
+ frame data/chars/reiji/726.gif
+ offset 4 3
+ frame data/chars/reiji/727.gif
+ offset 2 3
+ frame data/chars/reiji/728.gif
+
+anim 7050
+ delay 7
+ offset 45 29
+ frame data/chars/reiji/729.gif
+ offset 64 37
+ frame data/chars/reiji/730.gif
+ offset 103 63
+ frame data/chars/reiji/731.gif
+ offset 112 64
+ frame data/chars/reiji/732.gif
+ offset 127 60
+ frame data/chars/reiji/733.gif
+ offset 139 63
+ frame data/chars/reiji/734.gif
+ offset 143 70
+ frame data/chars/reiji/735.gif
+ offset 144 65
+ frame data/chars/reiji/736.gif
+ offset 144 66
+ frame data/chars/reiji/737.gif
+ offset 144 69
+ frame data/chars/reiji/738.gif
+ offset 144 70
+ frame data/chars/reiji/739.gif
+ offset 144 44
+ frame data/chars/reiji/740.gif
+ offset 144 45
+ frame data/chars/reiji/741.gif
+ offset 144 46
+ frame data/chars/reiji/742.gif
+ offset 144 21
+ frame data/chars/reiji/743.gif
+ offset 139 15
+ frame data/chars/reiji/744.gif
+ offset 109 8
+ frame data/chars/reiji/745.gif
+ offset 93 7
+ frame data/chars/reiji/746.gif
+
+anim 7051
+ delay 7
+ offset 7 11
+ frame data/chars/reiji/747.gif
+ offset 10 14
+ frame data/chars/reiji/748.gif
+ offset 21 36
+ frame data/chars/reiji/749.gif
+ offset 39 64
+ frame data/chars/reiji/750.gif
+ offset 48 78
+ frame data/chars/reiji/751.gif
+ offset 56 90
+ frame data/chars/reiji/752.gif
+ offset 61 82
+ frame data/chars/reiji/753.gif
+ offset 59 75
+ frame data/chars/reiji/754.gif
+ offset 43 71
+ frame data/chars/reiji/755.gif
+ offset 43 56
+ frame data/chars/reiji/756.gif
+ offset 43 55
+ frame data/chars/reiji/757.gif
+ offset 43 50
+ frame data/chars/reiji/758.gif
+ offset 39 41
+ frame data/chars/reiji/759.gif
+ offset 39 43
+ frame data/chars/reiji/760.gif
+ offset 32 46
+ frame data/chars/reiji/761.gif
+ offset 28 49
+ frame data/chars/reiji/762.gif
+ offset 5 6
+ frame data/chars/reiji/763.gif
+ offset 4 5
+ frame data/chars/reiji/764.gif
+ offset 4 3
+ frame data/chars/reiji/765.gif
+ offset 2 3
+ frame data/chars/reiji/766.gif
+
+anim 7060
+ delay 7
+ offset 45 29
+ frame data/chars/reiji/767.gif
+ offset 64 37
+ frame data/chars/reiji/768.gif
+ offset 103 63
+ frame data/chars/reiji/769.gif
+ offset 112 64
+ frame data/chars/reiji/770.gif
+ offset 127 60
+ frame data/chars/reiji/771.gif
+ offset 139 63
+ frame data/chars/reiji/772.gif
+ offset 143 70
+ frame data/chars/reiji/773.gif
+ offset 144 65
+ frame data/chars/reiji/774.gif
+ offset 144 66
+ frame data/chars/reiji/775.gif
+ offset 144 69
+ frame data/chars/reiji/776.gif
+ offset 144 70
+ frame data/chars/reiji/777.gif
+ offset 144 44
+ frame data/chars/reiji/778.gif
+ offset 144 45
+ frame data/chars/reiji/779.gif
+ offset 144 46
+ frame data/chars/reiji/780.gif
+ offset 144 21
+ frame data/chars/reiji/781.gif
+ offset 139 15
+ frame data/chars/reiji/782.gif
+ offset 109 8
+ frame data/chars/reiji/783.gif
+ offset 93 7
+ frame data/chars/reiji/784.gif
+
+anim 7061
+ delay 7
+ offset 7 11
+ frame data/chars/reiji/785.gif
+ offset 10 14
+ frame data/chars/reiji/786.gif
+ offset 21 36
+ frame data/chars/reiji/787.gif
+ offset 39 64
+ frame data/chars/reiji/788.gif
+ offset 48 78
+ frame data/chars/reiji/789.gif
+ offset 56 90
+ frame data/chars/reiji/790.gif
+ offset 61 82
+ frame data/chars/reiji/791.gif
+ offset 59 75
+ frame data/chars/reiji/792.gif
+ offset 43 71
+ frame data/chars/reiji/793.gif
+ offset 43 56
+ frame data/chars/reiji/794.gif
+ offset 43 55
+ frame data/chars/reiji/795.gif
+ offset 43 50
+ frame data/chars/reiji/796.gif
+ offset 39 41
+ frame data/chars/reiji/797.gif
+ offset 39 43
+ frame data/chars/reiji/798.gif
+ offset 32 46
+ frame data/chars/reiji/799.gif
+ offset 28 49
+ frame data/chars/reiji/800.gif
+ offset 5 6
+ frame data/chars/reiji/801.gif
+ offset 4 5
+ frame data/chars/reiji/802.gif
+ offset 4 3
+ frame data/chars/reiji/803.gif
+ offset 2 3
+ frame data/chars/reiji/804.gif
+
+anim 8200
+ delay 7
+ offset 500 1
+ frame data/chars/reiji/805.gif
+ offset 640 3
+ frame data/chars/reiji/806.gif
+ offset 640 8
+ frame data/chars/reiji/807.gif
+
+anim 8210
+ delay 7
+ offset 640 0
+ frame data/chars/reiji/808.gif
+ offset 640 1
+ frame data/chars/reiji/809.gif
+ offset 640 11
+ frame data/chars/reiji/810.gif
+
+anim 8220
+ delay 7
+ offset 591 0
+ frame data/chars/reiji/811.gif
+ offset 736 0
+ frame data/chars/reiji/812.gif
+
+anim 6030
+ delay 7
+ offset 47 48
+ frame data/chars/reiji/813.gif
+ offset 70 62
+ frame data/chars/reiji/814.gif
+ offset 74 67
+ frame data/chars/reiji/815.gif
+ offset 76 70
+ frame data/chars/reiji/816.gif
+ offset 76 73
+ frame data/chars/reiji/817.gif
+ offset 80 75
+ frame data/chars/reiji/818.gif
+ offset 71 76
+ frame data/chars/reiji/819.gif
+ offset 67 76
+ frame data/chars/reiji/820.gif
+
+anim 7500
+ delay 7
+ offset 0 0
+ frame data/chars/reiji/821.gif
+ offset 0 0
+ frame data/chars/reiji/822.gif
+
+anim 7510
+ delay 7
+ offset 0 0
+ frame data/chars/reiji/823.gif
+ offset 0 0
+ frame data/chars/reiji/824.gif
+ offset 0 0
+ frame data/chars/reiji/825.gif
+ offset 0 0
+ frame data/chars/reiji/826.gif
+ offset 0 0
+ frame data/chars/reiji/827.gif
+
+anim 7700
+ delay 7
+ offset 0 0
+ frame data/chars/reiji/828.gif
+
+anim 7600
+ delay 7
+ offset 0 0
+ frame data/chars/reiji/829.gif
+ offset 0 0
+ frame data/chars/reiji/830.gif
+ offset 0 0
+ frame data/chars/reiji/831.gif
+ offset 0 0
+ frame data/chars/reiji/832.gif
+ offset 0 0
+ frame data/chars/reiji/833.gif
+ offset 34 0
+ frame data/chars/reiji/834.gif
+ offset 34 0
+ frame data/chars/reiji/835.gif
+
+anim 7601
+ delay 7
+ offset 85 162
+ frame data/chars/reiji/836.gif
+ offset 85 162
+ frame data/chars/reiji/837.gif
+ offset 85 162
+ frame data/chars/reiji/838.gif
+ offset 85 162
+ frame data/chars/reiji/839.gif
+ offset 85 162
+ frame data/chars/reiji/840.gif
+ offset 85 162
+ frame data/chars/reiji/841.gif
+ offset 85 162
+ frame data/chars/reiji/842.gif
+ offset 85 162
+ frame data/chars/reiji/843.gif
+ offset 85 162
+ frame data/chars/reiji/844.gif
+ offset 85 162
+ frame data/chars/reiji/845.gif
+ offset 85 162
+ frame data/chars/reiji/846.gif
+ offset 85 162
+ frame data/chars/reiji/847.gif
+ offset 85 162
+ frame data/chars/reiji/848.gif

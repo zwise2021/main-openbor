@@ -93,7 +93,7 @@ health 20
 coords 715 163
 at 0
 
-spawn rugal
+spawn igniz
 health 25
 coords 345 161
 at 0
